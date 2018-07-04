@@ -1,14 +1,47 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      ToDo
+      ToDo App
     </ion-title>
+
+    <ion-buttons end>
+      <button ion-button (click)="openTodoAlert()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+      <button ion-button (click)="removeTodoAlert()">
+        <ion-icon name="remove"></ion-icon>
+      </button>
+    </ion-buttons>
+
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <button ion-button block (click)="openTodoAlert()">Add</button>
+  <button ion-button block (click)="removeTodoAlert()">Remove</button>
+  <button ion-button block (click)="doAlert()">Basic Alert</button>
+  <button ion-button color="light" block (click)="doConfirm()">Confirm Alert</button>
+  <button ion-button color="secondary" block (click)="doPrompt()">Prompt Alert</button>
+  <button ion-button color="danger" block (click)="doRadio()">Radio Alert</button>
+  <button ion-button color="dark" block (click)="doCheckbox()">Checkbox Alert</button>
+
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item> todo 1</ion-item>
+      <ion-item-options side="right">
+        <button ion-button color = "danger">
+          <ion-icon name = "trash"></ion-icon>
+        </button>
+
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item> todo 2</ion-item>
+      <ion-item-options side="right">
+      </ion-item-options></ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item> todo 3</ion-item>
+      <ion-item-options side="right">
+      </ion-item-options></ion-item-sliding>
+  </ion-list>
 </ion-content>
