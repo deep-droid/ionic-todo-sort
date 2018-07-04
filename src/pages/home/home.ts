@@ -1,19 +1,23 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
+import { TodoProvider } from "../../providers/todo/todo";
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
+  public todos = [];
 
   testRadioOpen = false;
   testRadioResult: any;
   testCheckboxOpen = false;
   testCheckboxResult: any;
 
-  constructor(public navCtrl: NavController, public  alertCtrl: AlertController) {
+  constructor(public navCtrl: NavController, public  alertCtrl: AlertController, private todoProvider: TodoProvider, private http: HttpClient) {
+    this.todos = this.todoProvider.getTodos();
   }
 
   openTodoAlert(){
@@ -31,7 +35,12 @@ export class HomePage {
           text: "Cancel"
         },
         {
-          text: "Add Todo"
+          text: "Add Todo",
+          handler: (inputData) => {
+            let todoText;
+            todoText = inputData.addTodoInput;
+            this.todoProvider.addTodo(todoText);
+          }
         }
       ]
     });
