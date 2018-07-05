@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { AlertController, reorderArray } from 'ionic-angular';
 import { TodoProvider } from "../../providers/todo/todo";
 import { HttpClient } from '@angular/common/http';
+import { ArchivedTodosPage } from "../../pages/archived-todos/archived-todos";
 
 @Component({
   selector: 'page-home',
@@ -11,14 +12,24 @@ import { HttpClient } from '@angular/common/http';
 export class HomePage {
   public todos = [];
   public reorderIsEnabled = false;
+  public archivedTodosPage = ArchivedTodosPage;
 
   testRadioOpen = false;
   testRadioResult: any;
   testCheckboxOpen = false;
   testCheckboxResult: any;
 
-  constructor(public navCtrl: NavController, public  alertCtrl: AlertController, private todoProvider: TodoProvider, private http: HttpClient) {
+  constructor(public navCtrl: NavController, public  alertCtrl: AlertController, private todoProvider: TodoProvider,
+    private http: HttpClient) {
     this.todos = this.todoProvider.getTodos();
+  }
+
+  archiveTodo(todoIndex){
+    this.todoProvider.archiveTodo(todoIndex);
+  }
+
+  goToArchivePage(){
+    this.navCtrl.push(ArchivedTodosPage);
   }
 
   toggleReorder(){
