@@ -10,11 +10,13 @@ import { TodoProvider } from '../providers/todo/todo';
 /// add "Module" for @NgModule annotation
 import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
+import { ArchivedTodosPage } from "../pages/archived-todos/archived-todos";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    ArchivedTodosPage
   ],
   imports: [
     ///Add "Module" for @NgModule annotation
@@ -26,7 +28,8 @@ import { HttpModule } from '@angular/http';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    ArchivedTodosPage
   ],
   providers: [
     StatusBar,

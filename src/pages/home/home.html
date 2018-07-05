@@ -5,6 +5,12 @@
     </ion-title>
 
     <ion-buttons end>
+      <button ion-button (click)="toggleReorder()" *ngIf = "!reorderIsEnabled">
+        Edit
+      </button>
+      <button ion-button (click)="toggleReorder()" *ngIf = "reorderIsEnabled">
+        Done
+      </button>
       <button ion-button (click)="openTodoAlert()">
         <ion-icon name="add"></ion-icon>
       </button>
@@ -17,15 +23,7 @@
 </ion-header>
 
 <ion-content padding>
-  <button ion-button block (click)="openTodoAlert()">Add</button>
-  <button ion-button block (click)="removeTodoAlert()">Remove</button>
-  <button ion-button block (click)="doAlert()">Basic Alert</button>
-  <button ion-button color="light" block (click)="doConfirm()">Confirm Alert</button>
-  <button ion-button color="secondary" block (click)="doPrompt()">Prompt Alert</button>
-  <button ion-button color="danger" block (click)="doRadio()">Radio Alert</button>
-  <button ion-button color="dark" block (click)="doCheckbox()">Checkbox Alert</button>
-
-  <ion-list>
+  <ion-list [reorder]="reorderIsEnabled" (ionItemReorder)="itemReordered($event)" >
     <ion-item-sliding *ngFor = "let todo of todos">
       <ion-item>{{todo}}</ion-item>
       <ion-item-options side="right">
@@ -35,13 +33,29 @@
 
       </ion-item-options>
     </ion-item-sliding>
+    <!-- <ion-item-sliding>
+      <ion-item> todo 1</ion-item>
+      <ion-item-options side="right">
+      </ion-item-options>
+    </ion-item-sliding>
     <ion-item-sliding>
       <ion-item> todo 2</ion-item>
       <ion-item-options side="right">
-      </ion-item-options></ion-item-sliding>
+      </ion-item-options>
+    </ion-item-sliding>
     <ion-item-sliding>
       <ion-item> todo 3</ion-item>
       <ion-item-options side="right">
-      </ion-item-options></ion-item-sliding>
+      </ion-item-options>
+    </ion-item-sliding> -->
   </ion-list>
+
+  <button ion-button block (click)="openTodoAlert()">Add</button>
+  <button ion-button block (click)="removeTodoAlert()">Remove</button>
+  <button ion-button block (click)="doAlert()">Basic Alert</button>
+  <button ion-button color="light" block (click)="doConfirm()">Confirm Alert</button>
+  <button ion-button color="secondary" block (click)="doPrompt()">Prompt Alert</button>
+  <button ion-button color="danger" block (click)="doRadio()">Radio Alert</button>
+  <button ion-button color="dark" block (click)="doCheckbox()">Checkbox Alert</button>
+
 </ion-content>
