@@ -18,9 +18,10 @@ Ionic app:
 	progress in percent
 	Number of repetitions
 	Duration
-	
 12) Use of toast for feedback
 13) Use Settings (or menu)
 14) Use tabs (maybe for other apps)
 15) Timer (configurable, animated: seconds and round progress bar)
-16) 
+16) Ads - advertisement
+17) How to build
+18) How to upload to Play Store
