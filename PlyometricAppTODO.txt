@@ -4,30 +4,55 @@ Ionic app:
 	days of the week (Mon-Sun)
 	every x days
 	2 per day (morning-evening)
+	NOT STARTED
 2) Splash screen
+	NOT STARTED
 3) Disclaimer -> confirm : Agree / Disagree
+	DONE
+	NOT INTEGRATED
 4) 10-14 predefined training workouts
+	STARTED
+	NOT INTEGRATED
 5) Level: Beginner, Intermediate, Advanced, Professional
+	NOT STARTED
 6) Description of the training, with either video or animation
+	NOT STARTED
 7) Sort list vs Random Order
+	STARTED
 8) Workout: Add new ones
+	STARTED
 9) Workout: Delete / Remove
+	STARTED
 10) Start training vs. Edit list
 	Timer between each workout
+	NOT STARTED
 11) History of the training 
 	progress in percent
 	Number of repetitions
 	Duration
+	NOT STARTED
 12) Use of toast for feedback
+	STARTED
 13) Use Settings (or menu)
+	NOT STARTED
 14) Use tabs (maybe for other apps)
+	NOT STARTED
 15) Timer (configurable, animated: seconds and round progress bar)
+	NOT STARTED
 16) Ads - advertisement
+	NOT STARTED
 17) How to build
+	NOT STARTED
 18) How to upload to Play Store
+	NOT STARTED
 19) Workout: Edit - slide from right to left - second button
+	STARTED
 20) Workout: Dismiss - slide from left to right
-
+	STARTED
+21) How to test on device
+	STARTED
+22) Account setup for storing training and progress
+	NOT STARTED
 
 
 TypeError: _co.archiveTodo is not a function
