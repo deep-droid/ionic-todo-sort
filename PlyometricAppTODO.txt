@@ -25,3 +25,25 @@ Ionic app:
 16) Ads - advertisement
 17) How to build
 18) How to upload to Play Store
+
+
+
+TypeError: _co.archiveTodo is not a function
+    at Object.eval [as handleEvent] (ng:///AppModule/HomePage.ngfactory.js:56:31)
+    at handleEvent (http://localhost:8100/build/vendor.js:13921:155)
+    at callWithDebugContext (http://localhost:8100/build/vendor.js:15430:42)
+    at Object.debugHandleEvent [as handleEvent] (http://localhost:8100/build/vendor.js:15017:12)
+    at dispatchEvent (http://localhost:8100/build/vendor.js:10336:25)
+    at http://localhost:8100/build/vendor.js:10961:38
+    at HTMLButtonElement.<anonymous> (http://localhost:8100/build/vendor.js:38823:53)
+    at t.invokeTask (http://localhost:8100/build/polyfills.js:3:15660)
+    at Object.onInvokeTask (http://localhost:8100/build/vendor.js:5114:33)
+    at t.invokeTask (http://localhost:8100/build/polyfills.js:3:15581)
+Ionic Framework: 3.9.2
+Ionic App Scripts: 3.1.8
+Angular Core: 5.2.9
+Angular Compiler CLI: 5.2.9
+Node: 8.11.1
+OS Platform: Windows 10
+Navigator Platform: Win32
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi
