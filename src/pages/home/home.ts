@@ -77,7 +77,7 @@ export class HomePage {
     alert.present();
   }
 
-  editTodo(todoIndex){
+  updateTodo(todoIndex){
     let alert = this.alertCtrl.create({
       title: "Edit Todo",
       message: "Edit Your Todo",
