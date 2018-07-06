@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { AlertController, reorderArray } from 'ionic-angular';
+import { AlertController, reorderArray, ToastController } from 'ionic-angular';
 import { TodoProvider } from "../../providers/todo/todo";
 import { HttpClient } from '@angular/common/http';
 import { ArchivedTodosPage } from "../../pages/archived-todos/archived-todos";
@@ -19,7 +19,7 @@ export class HomePage {
   testCheckboxOpen = false;
   testCheckboxResult: any;
 
-  constructor(public navCtrl: NavController, public  alertCtrl: AlertController, private todoProvider: TodoProvider,
+  constructor(public navCtrl: NavController, private toastController: ToastController, public  alertCtrl: AlertController, private todoProvider: TodoProvider,
     private http: HttpClient) {
     this.todos = this.todoProvider.getTodos();
   }
@@ -60,6 +60,15 @@ export class HomePage {
             let todoText;
             todoText = inputData.addTodoInput;
             this.todoProvider.addTodo(todoText);
+
+            alert.onDidDismiss(() => {
+              let addTodoToast = this.toastController.create({
+                message: " Todo added",
+                duration: 2000
+              });
+              addTodoToast.present();
+            })
+
           }
         }
       ]
@@ -67,6 +76,45 @@ export class HomePage {
 
     alert.present();
   }
+
+  editTodo(todoIndex){
+    let alert = this.alertCtrl.create({
+      title: "Edit Todo",
+      message: "Edit Your Todo",
+      inputs: [
+        {
+          type: "text",
+          name: "editTodoInput",
+          value: this.todos[todoIndex]
+        }
+      ],
+      buttons: [
+        {
+          text: "Cancel"
+        },
+        {
+          text: "Update Todo",
+          handler: (inputData) => {
+            let editTodoText;
+            editTodoText = inputData.editTodoInput;
+            this.todoProvider.editTodo(editTodoText, todoIndex);
+
+            alert.onDidDismiss(() => {
+              let editTodoToast = this.toastController.create({
+                message: " Todo updated",
+                duration: 2000
+              });
+              editTodoToast.present();
+            })
+
+          }
+        }
+      ]
+    });
+
+    alert.present();
+  }
+
 
   removeTodoAlert() {
     let alert = this.alertCtrl.create({

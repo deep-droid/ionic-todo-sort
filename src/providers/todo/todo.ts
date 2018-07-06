@@ -31,11 +31,15 @@ export class TodoProvider {
   getArchivedTodos(){
     return this.archivedTodos;
   }
-  
+
   addTodo(todo)
   {
     this.todos.push(todo);
   }
 
+  editTodo(todo, todoIndex)
+  {
+    this.todos[todoIndex] = todo;
+  }
 
 }

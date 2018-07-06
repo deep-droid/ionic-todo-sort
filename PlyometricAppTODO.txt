@@ -10,8 +10,8 @@ Ionic app:
 5) Level: Beginner, Intermediate, Advanced, Professional
 6) Description of the training, with either video or animation
 7) Sort list vs Random Order
-8) Add new ones
-9) Delete
+8) Workout: Add new ones
+9) Workout: Delete / Remove
 10) Start training vs. Edit list
 	Timer between each workout
 11) History of the training 
@@ -25,6 +25,8 @@ Ionic app:
 16) Ads - advertisement
 17) How to build
 18) How to upload to Play Store
+19) Workout: Edit - slide from right to left - second button
+20) Workout: Dismiss - slide from left to right
 
 
 
