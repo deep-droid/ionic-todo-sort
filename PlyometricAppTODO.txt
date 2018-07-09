@@ -126,6 +126,12 @@ PUSHUP/PULLPUP/SITUP/SQUAT WORKOUT Application description:
 14) Practice ! - do as many as you like
 15) Workout, Practice, Settings, History, Fitness level
 	
+=======
+Ionic Framework Tutorial - 21 videos
+https://www.youtube.com/watch?v=0jamhGf-8ww&list=PLYxzS__5yYQljbuGjaeugpqs9U07gS5P5
+Learn Ionic 3 From Scratch - 27 videos
+https://www.youtube.com/watch?v=JcEGTektejA&list=PLYxzS__5yYQng-XnJhB21Jc7NW1OIaqct
+
 	
 
 TypeError: _co.archiveTodo is not a function
