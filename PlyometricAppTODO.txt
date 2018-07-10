@@ -52,13 +52,87 @@ Ionic app:
 21) How to test on device
 	STARTED
 22) Account setup for storing training and progress
-	NOT STARTED
+	NOT STARTED	
+23) Local application storage of data:
+	Fintess level
+	Reminder data
+	Some history 
+		day - iterations - total / completed %
+	Rest timeout
+	NOT STARTED 
+24) History aggregation view by:
+	day
+	week
+	month
+	year
+	NOT STARTED 
+25) badges - 5 levels of your fitness to go to next level
+	NOT STARTED 
+26) Rest timeout
+	60, 75, 90, 120 s
+27) Reminder to stretch before and after	
+	NOT STARTED 
+28) 
+	NOT STARTED 
+	NOT STARTED 
+	NOT STARTED 
+	NOT STARTED 
+	NOT STARTED 
+	NOT STARTED 
+	NOT STARTED 
+	NOT STARTED 
+	NOT STARTED 
+	
+	
+PLYOMETRICS Application description:
+1) Splash screen - welcome message, picture, maybe some animation or transition
+2) Disclaimer (fitness level, medicala warning, your own risk)
+3) Select level of your fitness - if not done
+4) Settings (all settings including workout settings: level, reminder, rest_timeout)
+5) Start workout
+6) Workout: DO -> dispose -> rest_timeout -> Do next - complete if All done
+	Abort
+	Skip - skip some workouts
+	
 
+PUSHUP/PULLPUP/SITUP/SQUAT WORKOUT Application description:
+1) Splash screen - welcome message, picture, maybe some animation or transition
+2) Disclaimer (fitness level, medicala warning, your own risk)
+3) Measure level of your fitness - if not done
+4) Settings (all settings including workout settings: level, reminder, rest_timeout)
+5) Start workout - 5 series with some algorithm
+6) Workout: DO -> dispose -> rest_timeout -> Do next - complete if All done
+	Abort
+	Completed
+7) Update history
+8) Screens:
+	Splash screen
+	Disclaimer
+	Welcome: Start workout, Measure Fitness, Settings
+	Workout + show progress (
+	Timer (animation, number, colors, sound)
+	History with aggregation and chart!
+	Settings (with subsettings)
+	Feedback (OK, Too hard, Too easy, Piece of cake:)
+9) Store data localy 
+	Timer
+	Fitness
+	History
+	Settings
+10) Store data externally (dropbox, google, ...)
+11) Select target for workout (10, 20, 30, 50, 100, ...)
+12) Reset workout -> fitness level
+13) Start today workout
+14) Practice ! - do as many as you like
+15) Workout, Practice, Settings, History, Fitness level
+	
+=======
 Ionic Framework Tutorial - 21 videos
 https://www.youtube.com/watch?v=0jamhGf-8ww&list=PLYxzS__5yYQljbuGjaeugpqs9U07gS5P5
 
 Learn Ionic 3 From Scratch - 27 videos
 https://www.youtube.com/watch?v=JcEGTektejA&list=PLYxzS__5yYQng-XnJhB21Jc7NW1OIaqct
+
 	
 
 TypeError: _co.archiveTodo is not a function
