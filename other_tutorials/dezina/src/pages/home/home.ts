@@ -3,7 +3,7 @@ import { NavController } from 'ionic-angular';
 import { Http } from "@angular/http";
 import "rxjs/add/operator/map";
 import { ProductProvider } from "../../providers/product/product";
-
+import { ProductDetailPage } from "../../pages/product-detail/product-detail"
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -26,5 +26,14 @@ export class HomePage {
     .subscribe((response) => {
       this.allProducts = response;
     });
+
   }
+
+  goToProductDetailPage(product)
+  {
+    this.navCtrl.push(ProductDetailPage, {
+      productDetails:product
+    });
+  }
+  
 }
