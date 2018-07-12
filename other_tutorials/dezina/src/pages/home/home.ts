@@ -12,7 +12,7 @@ export class HomePage {
 
   public allProducts = [];
 
-  constructor(private productService: ProductProvider, navCtrl: NavController, private http: Http) {
+  constructor(private productService: ProductProvider, public navCtrl: NavController, private http: Http) {
 
   }
 
@@ -35,5 +35,5 @@ export class HomePage {
       productDetails:product
     });
   }
-  
+
 }
