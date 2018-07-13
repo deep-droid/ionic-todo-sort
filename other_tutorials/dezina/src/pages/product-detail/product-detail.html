@@ -14,5 +14,34 @@
 
 
 <ion-content padding>
+  <ion-card>
+    <img [src]="productDetails.image"/>
+  </ion-card>
 
+  <ion-card>
+    <ion-card-header>
+      Description
+    </ion-card-header>
+    <ion-card-content>
+      {{productDetails.description}}
+    </ion-card-content>
+
+    <ion-card-header>
+      Extra information
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-badge item-right>
+          {{productDetails.price}}
+        </ion-badge>
+        <ion-badge item-right>
+          {{productDetails.gender}}
+
+        </ion-badge>
+      </ion-item>
+      <ion-item>
+      </ion-item>
+      {{productDetails.description}}
+    </ion-card-content>
+  </ion-card>
 </ion-content>
