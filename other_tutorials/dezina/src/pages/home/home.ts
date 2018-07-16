@@ -13,6 +13,8 @@ import { FilterModalPage } from '../../pages/filter-modal/filter-modal';
 export class HomePage {
 
   public allProducts = [];
+  private femaleSelected = true;
+  private maleSelected = true;
 
   constructor(private modalController: ModalController, private productService: ProductProvider, public navCtrl: NavController, private http: Http) {
 
@@ -40,8 +42,15 @@ export class HomePage {
 
   openFilterModal()
   {
-    let openFilterModalWindow = this.modalController.create(FilterModalPage);
+    let filterStateFromMainPage = {
+      femaleSelected = this.femaleSelected,
+      maleSelected = this.maleSelected
+    };
+
+    let openFilterModalWindow = this.modalController.create(FilterModalPage, filterStateFromMainPage);
     openFilterModalWindow.onDidDismiss((filterState) => {
+      this.femaleSelected = filterState.femaleSelected;
+      this.maleSelected = filterState.maleSelected;
       this.productService.getProducts()
       .subscribe((allProducts) => {
         let products = allProducts;
