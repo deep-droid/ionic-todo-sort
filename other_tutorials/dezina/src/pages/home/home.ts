@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ModalController } from 'ionic-angular';
 import { Http } from "@angular/http";
 import "rxjs/add/operator/map";
 import { ProductProvider } from "../../providers/product/product";
-import { ProductDetailPage } from "../../pages/product-detail/product-detail"
+import { ProductDetailPage } from "../../pages/product-detail/product-detail";
+import { FilterModalPage } from '../../pages/filter-modal/filter-modal';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -12,7 +14,7 @@ export class HomePage {
 
   public allProducts = [];
 
-  constructor(private productService: ProductProvider, public navCtrl: NavController, private http: Http) {
+  constructor(private modalController: ModalController, private productService: ProductProvider, public navCtrl: NavController, private http: Http) {
 
   }
 
@@ -38,6 +40,7 @@ export class HomePage {
 
   openFilterModal()
   {
-
+    let openFilterModalWindow = this.modalController.create(FilterModalPage);
+    openFilterModalWindow.present();
   }
 }

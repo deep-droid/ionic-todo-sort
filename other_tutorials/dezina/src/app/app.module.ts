@@ -8,6 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { ProductDetailPage } from '../pages/product-detail/product-detail';
+import { FilterModalPage } from '../pages/filter-modal/filter-modal';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,6 +24,7 @@ import { ProductProvider } from '../providers/product/product';
     ContactPage,
     HomePage,
     ProductDetailPage,
+    FilterModalPage,
     TabsPage
   ],
   imports: [
@@ -37,6 +39,7 @@ import { ProductProvider } from '../providers/product/product';
     ContactPage,
     HomePage,
     ProductDetailPage,
+    FilterModalPage,
     TabsPage
   ],
   providers: [
