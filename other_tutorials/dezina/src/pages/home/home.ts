@@ -41,6 +41,26 @@ export class HomePage {
   openFilterModal()
   {
     let openFilterModalWindow = this.modalController.create(FilterModalPage);
+    openFilterModalWindow.onDidDismiss((filterState) => {
+      this.productService.getProducts()
+      .subscribe((allProducts) => {
+        let products = allProducts;
+        if (filterState.maleSelected && filterState.femaleSelected) {
+          this.allProducts = products;
+          return;
+        } else if (!filterState.maleSelected && !filterState.femaleSelected) {
+          this.allProducts = [];
+        } else if (filterState.femaleSelected && !filterState.maleSelected){
+          this.allProducts = products.filter((product)=>{
+            return product.gender !== "male";
+          });
+        } else if (!filterState.femaleSelected && filterState.maleSelected) {
+          this.allProducts = products.filter((product)=>{
+            return product.gender !== "female";
+          });
+        }
+      });
+    });
     openFilterModalWindow.present();
   }
 }
