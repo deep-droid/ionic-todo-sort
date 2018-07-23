@@ -1,3 +1,5 @@
+https://www.epam.com/careers/job-listings/job.42620
+
 Ionic app:
 1) Reminder about training:
 	hour
@@ -152,6 +154,18 @@ Learn Ionic 3 From Scratch - 27 videos
 https://www.youtube.com/watch?v=JcEGTektejA&list=PLYxzS__5yYQng-XnJhB21Jc7NW1OIaqct
 
 	
+
+1. Screen1: SPLASH_SCREEN
+Show SPLASH_SCREEN when APPLICATION starts.
+Centered image (placeholder, any image with physical workout will be fine) in the center with label "Loading" below for up to 2 seconds
+2. Screen2: WELCOME_SCREEN for workout APPLICATION
+The following buttons as options to perform actions
+a) START_WORKOUT -> WORKOUT_FEEDBACK at the end
+b) SELECT_MAXIMUM_WORKOUT
+d) WORKOUT_STATISTICS
+f) SETTINGS (as IONIC menu option)
+h) ABOUT_APPLICATION
+
 
 TypeError: _co.archiveTodo is not a function
     at Object.eval [as handleEvent] (ng:///AppModule/HomePage.ngfactory.js:56:31)
