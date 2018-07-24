@@ -1,4 +1,4 @@
-Ionic app:
+Ionic PLYOMETRICS app:
 1) Reminder about training:
 	hour
 	days of the week (Mon-Sun)
