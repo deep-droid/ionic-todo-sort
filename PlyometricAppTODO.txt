@@ -1,23 +1,25 @@
-Ionic PLYOMETRICS app:
+https://www.epam.com/careers/job-listings/job.42620
+
+Ionic app:
 1) Reminder about training:
 	hour
 	days of the week (Mon-Sun)
 	every x days
 	2 per day (morning-evening)
 	NOT STARTED
-2) Splash screen
+2) Splash screen on loading
 	NOT STARTED
-3) Disclaimer -> confirm : Agree / Disagree
+3) Disclaimer -> confirm fitenss warning: Agree / Disagree
 	DONE
 	NOT INTEGRATED
-4) 10-14 predefined training workouts
+4) 10-14 predefined training workouts - about 15-20 minutes
 	STARTED
 	NOT INTEGRATED
-5) Level: Beginner, Intermediate, Advanced, Professional
+5) Level: Beginner, Intermediate, Advanced, Professional/Pro
 	NOT STARTED
 6) Description of the training, with either video or animation
 	NOT STARTED
-7) Sort list vs Random Order
+7) Sorted list vs Random Order
 	STARTED
 8) Workout: Add new ones
 	STARTED
@@ -32,26 +34,43 @@ Ionic PLYOMETRICS app:
 	Duration
 	NOT STARTED
 12) Use of toast for feedback
+	2-3 seconds for action feedback
 	STARTED
 13) Use Settings (or menu)
+	Fab button (or menu)
 	NOT STARTED
 14) Use tabs (maybe for other apps)
+	Probably not required - or current training description in tab
 	NOT STARTED
 15) Timer (configurable, animated: seconds and round progress bar)
+	Animation - round timer
+	Number
+	Audio - tick last 10 seconds
+	Audio - sount when expired
 	NOT STARTED
 16) Ads - advertisement
 	NOT STARTED
-17) How to build
+17) How to build for
+	IOS
+	Android
 	NOT STARTED
-18) How to upload to Play Store
+18) How to upload to 
+	Play Store
+	Apple Store
 	NOT STARTED
 19) Workout: Edit - slide from right to left - second button
 	STARTED
 20) Workout: Dismiss - slide from left to right
 	STARTED
 21) How to test on device
+	One
+	Multiple
+	Cross platform
 	STARTED
 22) Account setup for storing training and progress
+	Login
+	Storage
+	Retrival (from previous account, previous installation)
 	NOT STARTED	
 23) Local application storage of data:
 	Fintess level
@@ -66,11 +85,12 @@ Ionic PLYOMETRICS app:
 	month
 	year
 	NOT STARTED 
-25) badges - 5 levels of your fitness to go to next level
+25) Badges - 5 levels of your fitness to go to next level
 	NOT STARTED 
-26) Rest timeout
+26) Rest timeout configuration
 	60, 75, 90, 120 s
-27) Reminder to stretch before and after	
+27) Reminder to stretch before and after
+	Modal or another way
 	NOT STARTED 
 28) 
 	NOT STARTED 
@@ -134,6 +154,18 @@ Learn Ionic 3 From Scratch - 27 videos
 https://www.youtube.com/watch?v=JcEGTektejA&list=PLYxzS__5yYQng-XnJhB21Jc7NW1OIaqct
 
 	
+
+1. Screen1: SPLASH_SCREEN
+Show SPLASH_SCREEN when APPLICATION starts.
+Centered image (placeholder, any image with physical workout will be fine) in the center with label "Loading" below for up to 2 seconds
+2. Screen2: WELCOME_SCREEN for workout APPLICATION
+The following buttons as options to perform actions
+a) START_WORKOUT -> WORKOUT_FEEDBACK at the end
+b) SELECT_MAXIMUM_WORKOUT
+d) WORKOUT_STATISTICS
+f) SETTINGS (as IONIC menu option)
+h) ABOUT_APPLICATION
+
 
 TypeError: _co.archiveTodo is not a function
     at Object.eval [as handleEvent] (ng:///AppModule/HomePage.ngfactory.js:56:31)

@@ -1,0 +1,53 @@
+Data Science Solution Architect
+Gdansk, Poland
+HOT
+JOB #: 42620
+Striving for excellence is in our DNA. Since 1993, we have been helping the world’s leading companies imagine, design, engineer, and deliver software and digital experiences that change the world. We are more than just specialists, we are experts.
+
+DESCRIPTION
+Currently we are looking for a Data Science Solution Architect for our Gdansk office to make the team even stronger.
+RESPONSIBILITIES
+Business enablement:
+Lead strategic planning, development and implementation of medium-to-large data science solutions or a component of a larger solution, including predictive modeling, unsupervised and supervised learning, and machine learning techniques
+Lead on all stages of presales activities for such projects, owning the whole presale process from the competency center perspective when required. Manage the delivery of architectural POCs, where required
+Interact with clients, advise and drive the translation of business requirements and models into appropriate architectural designs to ensure that business needs are met
+Work directly and collaboratively with clients, external data providers, and other key stakeholders to ensure that the solution’s concept/vision is understood and agreed upon
+Actively participate in project review and planning sessions. As needed, lead the solution development, drive and supervise end-to-end development cycle (SDLC) or participate in the projects start-up
+Be accountable for applications-related quality, performance, availability, scalability, security, and integrity, ensuring application usability, for instance, through a high-quality functional interface to applications. Identify and mitigate risks associated with specific solution in known contexts
+Be accountable for ensuring architectural consistency of recommended technology and its integration with the client’s applications and infrastructure. Identify and mitigate risks associated the implemented solution in all relevant contexts of the project and wider program
+Manage the architectural knowledge transfer from the project development team to the post-go-live support team. Oversee or effect the creation of architectural case study for EPAM’s repository of reusable assets
+Technology vision thought leadership and depth:
+Drive strategic visioning activities for the practice and competency center. Develop reusable assets, development methods, processes, best practices to accelerate delivery. Coordinate SA pool on those activities
+Drive the program of evaluating the hardware and software platforms, benchmarking of alternative solution architectures, supervise a defined process for provision of structured, reusable results. Coordinate the direction of R&D activities by SA pool
+Keep pace with the innovative technologies and consider possibilities of creating relevant solution offerings. Coordinate architects in developmental direction choice
+Consult and supervise all team members, share knowledge. Participate in the assessment of the candidates for SA position. Mentor other solution architects in practical SA activities. Provide technical guidance and career-planning assistance
+Write broad topic and strategic white papers in the course of industry and technology research
+Maintain high competency visibility by regular posting in internal newsletters, blogs as well as speaking at internal and external conferences and other events; create blueprints on customer request. Create technology road
+Analyze large data sets to discover trends, identify performance metrics, and uncover optimization opportunities
+Apply machine learning algorithms and statistical methods to large sets of raw data
+Continuously improve algorithms and develop best practice for instrumentation
+Work to acquire enterprise architecture theoretical knowledge
+REQUIREMENTS
+Capable of leadership (influence management) and pragmatism
+5+ years’ experience prototyping classification and regression models using machine software such as Scikit-learn, R, MATLAB, Octave, Weka, Mahout, etc
+Experience with large-scale log processing or big data including but not limited to Elastic MapReduce, Hadoop streaming, Pig, Hive, Spark, etc
+Fluency in a range of scripting languages, operating systems, and software platforms including but not limited to Linux, Redis, Java, MySQL, Python, Pandas, AWS
+Experience in data architecture, data modeling, and database design
+Experience working with relational and non-relational databases to retrieve structured, unstructured, and semi-structured data sets
+Knowledge of business domains (travel and hospitality, finance, retail, etc.)
+Track record of working directly with the customer (i.e. regularly facing customer directly) both remotely and on-site
+Presale activities with exposure to customers on billable accounts
+Demonstrated experience with full life cycle of software development processes like RUP or "Waterfall", Agile (Scrum, XP, etc.)
+Demonstrated experience in solution cost estimation (including tools, tasks, complexity, labor and time) at coarse grain and fine grain levels, with supporting material evidence
+Demonstrated experience in validating the overall solution from the perspective of performance, scalability, security and capacity
+WE OFFER
+Possibility to be involved in an international project (Canada, China, Hong Kong, Mexico, USA, Switzerland, Germany, Sweden, United Kingdom, Russia, Belarus, Ukraine, Hungary, etc.)
+Language classes (English and Polish)
+Vast opportunities for self-development: online courses and library, experience exchange with colleagues around the world, partial grant of certification
+Career development center
+Possibility to take part in both: corporate and startup environment
+Possibility to relocate for short and long-term projects
+Relocation package for those who relocates to Krakow, Wroclaw, or Gdansk from other locations
+Benefit package (health care, multisport, lunch tickets, petrol vouchers and shopping vouchers, etc.)
+Fruits on a weekly basis
+Sponsored sport activities, E-sport program
