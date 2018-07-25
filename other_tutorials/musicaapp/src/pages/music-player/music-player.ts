@@ -14,11 +14,15 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class MusicPlayerPage {
 
+  public music = {};
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    console.log(this.navParams.get("music"));
+    this.music = this.navParams.get("music");
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MusicPlayerPage');
+    //console.log('ionViewDidLoad MusicPlayerPage');
   }
 
 }
