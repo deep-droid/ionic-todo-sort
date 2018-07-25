@@ -32,9 +32,13 @@ export class HomePage {
       });
   }
 
-  addOneSong()
+  addOneSong(refresher)
   {
     this.musicProvider.getOneSong()
-    .subscribe(oneSong => this.allMusic.unshift(oneSong[0]))
+    .subscribe(oneSong => {
+      this.allMusic.unshift(oneSong[0]);
+      refresher.complete();
+    });
+
   }
 }
