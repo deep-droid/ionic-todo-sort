@@ -14,6 +14,7 @@ import { MusicProvider } from '../providers/music/music';
 import { HttpModule } from "@angular/http";
 import { HttpClientModule } from '@angular/common/http';
 import { SocialSharing } from '@ionic-native/social-sharing';
+import { Media } from '@ionic-native/media';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     StatusBar,
     SplashScreen,
     SocialSharing, 
+    Media,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     MusicProvider
   ]
