@@ -32,6 +32,11 @@ export class MusicPlayerPage {
     // this.music = this.navParams.get("music");
   }
 
+  inonViewWillLeave()
+  {
+    this.stopMusic();
+  }
+
   playMusic() {
     if (this.songMedia == null)
     {
