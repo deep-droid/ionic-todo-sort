@@ -9,7 +9,7 @@ Ionic app:
 	NOT STARTED
 2) Splash screen on loading
 	NOT STARTED
-3) Disclaimer -> confirm fitenss warning: Agree / Disagree
+3) Disclaimer -> confirmcd fitenss warning: Agree / Disagree
 	DONE
 	NOT INTEGRATED
 4) 10-14 predefined training workouts - about 15-20 minutes
