@@ -14,6 +14,20 @@ PentaConsulting.com
 5) squash & tennis
 
 
+Software (maybe with Ionic or Fuse):
+- Screenshot software
+	* multiple monitors
+	* shortkeys
+	* video / windows / regions
+- Desktop manager
+- Magic Pen - onscreen drawing
+- Video Recording
+	* camera - position, size
+	* screen, windows
+	* multiple screens (screen in screen, PIP)
+	* formats (video, audio)
+	* duration limit
+
 https://www.udemy.com/reprogram-your-facebook-any-other-webapp/
 
 

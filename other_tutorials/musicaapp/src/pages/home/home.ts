@@ -3,6 +3,7 @@ import { NavController, LoadingController, ActionSheetController } from 'ionic-a
 import { MusicProvider } from "../../providers/music/music";
 import { SocialSharing } from "@ionic-native/social-sharing";
 import { MusicPlayerPage } from "../music-player/music-player";
+import { SplashScreen } from "@ionic-native/splash-screen";
 
 @Component({
   selector: 'page-home',
@@ -17,7 +18,8 @@ export class HomePage {
     private socialSharing : SocialSharing,
     private musicProvider : MusicProvider,
     private loadingController: LoadingController,
-    private actionSheetController: ActionSheetController
+    private actionSheetController: ActionSheetController,
+    private splashScreen : SplashScreen
   ) {
 
 
@@ -25,6 +27,10 @@ export class HomePage {
 
   ionViewDidLoad()
   {
+    this.splashScreen.show();
+
+    this.splashScreen.hide();
+
     let allMusicLoadingController = this.loadingController.create({
       content: "Getting your music from server"
 

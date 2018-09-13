@@ -4,6 +4,7 @@ import { AlertController, reorderArray, ToastController } from 'ionic-angular';
 import { TodoProvider } from "../../providers/todo/todo";
 import { HttpClient } from '@angular/common/http';
 import { ArchivedTodosPage } from "../../pages/archived-todos/archived-todos";
+import { SplashScreen } from "@ionic-native/splash-screen";
 
 @Component({
   selector: 'page-home',
@@ -19,9 +20,30 @@ export class HomePage {
   testCheckboxOpen = false;
   testCheckboxResult: any;
 
-  constructor(public navCtrl: NavController, private toastController: ToastController, public  alertCtrl: AlertController, private todoProvider: TodoProvider,
-    private http: HttpClient) {
+  constructor(
+    public navCtrl: NavController, 
+    private toastController: ToastController, 
+    public  alertCtrl: AlertController, 
+    private todoProvider: TodoProvider,
+    private http: HttpClient,
+    private splashScreen : SplashScreen
+    ) 
+    {
     this.todos = this.todoProvider.getTodos();
+  }
+
+  public sleep (time) {
+    return new Promise((resolve) => setTimeout(resolve, time));
+  }
+
+  ionViewDidLoad()
+  {
+    this.splashScreen.show();
+    this.sleep(2000).then( () => {
+
+    });
+    //this.splashScreen.hide();
+
   }
 
   archiveTodo(todoIndex){

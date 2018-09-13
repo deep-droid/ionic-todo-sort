@@ -46,6 +46,7 @@ export class MusicPlayerPage {
       if (this.isMusicPaused == true) {
         this.songMedia.play();
         this.isMusicPaused = false;
+        this.mediaPlugin.
       }
     }
   }

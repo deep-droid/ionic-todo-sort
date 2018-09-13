@@ -15,6 +15,8 @@ import { HttpModule } from "@angular/http";
 import { HttpClientModule } from '@angular/common/http';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { Media } from '@ionic-native/media';
+//import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 @NgModule({
   declarations: [

@@ -21,8 +21,10 @@ Ionic app:
 	NOT STARTED
 7) Sorted list vs Random Order
 	STARTED
+	DONE sorting
 8) Workout: Add new ones
 	STARTED
+	DONE?
 9) Workout: Delete / Remove
 	STARTED
 10) Start training vs. Edit list
