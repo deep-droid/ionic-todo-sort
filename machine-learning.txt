@@ -1,3 +1,19 @@
+Deep learning retreat:
+https://deeplearningretreat.com/method-and-manifesto/
+
+Top links:
+http://course.fast.ai/
+https://simoninithomas.github.io/Deep_reinforcement_learning_Course/
+https://www.elementsofai.com/
+https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A
+https://www.theschool.ai/courses/decentralized-applications-b2
+https://deeplearningretreat.com/
+https://pythonprogramming.net/data-analysis-tutorials/
+https://bloomberg.github.io/foml/#home
+https://medium.com/@epireve/i-couldt-afford-siraj-raval-s-deep-learning-udacity-course-c41ae2a55554
+
+
+
 http://venturebeat.com/2016/05/12/google-open-sources-syntaxnet-a-natural-language-understanding-library-for-tensorflow/
 https://research.googleblog.com/search/label/TensorFlow
 https://videoportal.epam.com/video/wapO3DJz

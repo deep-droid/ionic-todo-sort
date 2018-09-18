@@ -6,43 +6,59 @@ Ionic app:
 	days of the week (Mon-Sun)
 	every x days
 	2 per day (morning-evening)
+	Within fab button (*)
 	NOT STARTED
 2) Splash screen on loading
+	Initialize for 2-3 seconds with image and animation
 	NOT STARTED
 3) Disclaimer -> confirmcd fitenss warning: Agree / Disagree
+	Store consent
+	Disclaimer about cookies
+	Disclaimer about privacy policy for EU
 	DONE
 	NOT INTEGRATED
 4) 10-14 predefined training workouts - about 15-20 minutes
+	40 seconds + 20 seconds scheme
 	STARTED
 	NOT INTEGRATED
 5) Level: Beginner, Intermediate, Advanced, Professional/Pro
+	Intensity level and duration (20-30 minutes)
+	Predefined levels vs. manual settings (rest time)
 	NOT STARTED
 6) Description of the training, with either video or animation
+	Slide and Info button (Or just info button)
 	NOT STARTED
 7) Sorted list vs Random Order
+	Before starting the training
 	STARTED
 	DONE sorting
 8) Workout: Add new ones
+	+ button at the top
 	STARTED
 	DONE?
 9) Workout: Delete / Remove
+	- button at the top
+	Saving locally and saving per account
 	STARTED
 10) Start training vs. Edit list
+	Edit the list of the training before starting workout 
 	Timer between each workout
 	NOT STARTED
 11) History of the training 
 	progress in percent
-	Number of repetitions
-	Duration
+	Number of repetitions (total)
+	Duration (total)
 	NOT STARTED
 12) Use of toast for feedback
 	2-3 seconds for action feedback
+	Action feedback for greater user experience
 	STARTED
 13) Use Settings (or menu)
 	Fab button (or menu)
 	NOT STARTED
 14) Use tabs (maybe for other apps)
 	Probably not required - or current training description in tab
+	Tab usage? TBD: maybe slide then animation, picture, video of current/next workout?
 	NOT STARTED
 15) Timer (configurable, animated: seconds and round progress bar)
 	Animation - round timer
@@ -51,6 +67,7 @@ Ionic app:
 	Audio - sount when expired
 	NOT STARTED
 16) Ads - advertisement
+	ad-mob-free
 	NOT STARTED
 17) How to build for
 	IOS

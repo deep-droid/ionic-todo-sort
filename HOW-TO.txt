@@ -1,9 +1,11 @@
+##########################################################################################
 1) trainings, both PL and EN
 javascript
 ionic
 python
 Udemy, Erik/Tom
 SkillWise
+Pakg
 PL - 
 2) ionic - sport apps
 3) external consulting agency
@@ -13,7 +15,7 @@ PentaConsulting.com
 4) https://www.jagbc.com/
 5) squash & tennis
 
-
+##########################################################################################
 Software (maybe with Ionic or Fuse):
 - Screenshot software
 	* multiple monitors
@@ -27,7 +29,14 @@ Software (maybe with Ionic or Fuse):
 	* multiple screens (screen in screen, PIP)
 	* formats (video, audio)
 	* duration limit
+- Tests 4 geeks (testing platform)
+- Coding dojo platform
+- ML Retreat (training f2f from ML, Python, Javascript, IONIC)
+	For guys from US willing to get well paid job
+- Freelancers portal ()
 
+	
+##########################################################################################
 https://www.udemy.com/reprogram-your-facebook-any-other-webapp/
 
 
@@ -43,9 +52,54 @@ flow:
 9) ads: FBs, YTs - social media
 10) 
 
+
+##########################################################################################
 content:
 1) javascript
 2) python
 3) ionic (mobile framework hybrid)
 4) scrum, kanban - softskills
 5) bash !
+
+
+##########################################################################################
+Zdazus:
+aktywnych userów ok 4300, przy ponad 12k instalacji
+ale instalacje zbierane od 3-4 lat
+59k impressions -> 81 clicków -> 22.06zł
+12 000 -> 59000 impressions -> 81 clicks -> 22 PLN / 5.9 USD (week => 168x more to get this in 1 hour)
+
+1 click => 0,007USD
+
+##########################################################################################
+
+12,000 netto - OK 	-> 	144000 netto / year 	->	218,000 brutto / year B2B	->	59,000 USD
+59,000 USD / 8760 h/year ->	6,7 USD hour = 25 PLN hour
+
+10,500 netto - OK 	-> 	126000 netto / year 	-> 	191,000 brutto / year B2B
+51,600 USD / 8760 h/year ->	5,9 USD hour = 22 PLN hour
+
+
+1 click / 750 impressions
+
+8760h / year (3 main timezones Asia-Pacific, Europe+Africa, Americas)
+
+##########################################################################################
+to have so many clicks per 1h (not per 1 week) app needs to have:
+24*7 more installations and active users (168x) - seems possible. 500,000 for Zdazus -> 84,000,000 for 168x times => 88x times more in the world
+168 x 4300 	->   722,000 active users
+168 x 12000	-> 2,000,000 installations (per 4-5 applications -> 400-500,000 per app)
+
+
+##########################################################################################
+Videos - trainings
+1-2 minute per video
+Intro / jing / voice-over
+Show how it looks full-swing / dynamic instructor / 
+Step by step - instructor led
+Show how it looks full-swing / dynamic trainee 
+Ending, good-bye, advertisment
+
+
+Text + links to apps + Disclaimer + channel link + subscribe
+
