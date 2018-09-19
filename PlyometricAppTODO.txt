@@ -124,15 +124,45 @@ Ionic app:
 	
 	
 PLYOMETRICS Application description:
+MVP:
 1) Splash screen - welcome message, picture, maybe some animation or transition
-2) Disclaimer (fitness level, medicala warning, your own risk)
+2) Disclaimer: (fitness level, medical warning, your own risk)
+3) Disclaimer: cookies, RODO/data collection/processing
+4) Toast on start workout - remember about stretching
+5) Toast on done workout - remember about stretching
 3) Select level of your fitness - if not done
+	Beginner, Intermediate, Advanced, Ninja/Pro
 4) Settings (all settings including workout settings: level, reminder, rest_timeout)
 5) Start workout
-6) Workout: DO -> dispose -> rest_timeout -> Do next - complete if All done
+	List 10-15 trainings
+	No edition
+	No removing
+	Preset order
+6) Skip for now: Workout: DO -> dispose -> rest_timeout -> Do next - complete if All done
 	Abort
 	Skip - skip some workouts
-	
+7) AdMobFree
+8) Congrats on DONE training
+9) List: 15/some repetitions
+Squat jumps
+Burpees
+Jumping jacks
+Heiseman
+Push ups
+Jumping lunges
+High knees
+Mountain
+Butt kicks
+*Push ups
+*Heiseman
+*Jumping jacks
+Bicycles
+Leg crunches
+Tuck jumps
+
+10) Slide left - done
+11) Slide right - 
+
 
 PUSHUP/PULLPUP/SITUP/SQUAT WORKOUT Application description:
 1) Splash screen - welcome message, picture, maybe some animation or transition
