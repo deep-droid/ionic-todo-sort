@@ -1,6 +1,6 @@
 {
   "name": "dezina",
-  "app_id": "f15d32fc",
+  "integrations": {},
   "type": "ionic-angular",
-  "integrations": {}
+  "pro_id": "f15d32fc"
 }

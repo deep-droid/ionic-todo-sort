@@ -11,7 +11,7 @@ import { SplashScreen } from "@ionic-native/splash-screen";
   templateUrl: 'home.html'
 })
 export class HomePage {
-  public todos = [];
+  public todos = ["Run", "Jump", "Rol"];
   public reorderIsEnabled = false;
   public archivedTodosPage = ArchivedTodosPage;
 

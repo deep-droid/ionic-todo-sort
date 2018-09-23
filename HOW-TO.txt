@@ -33,8 +33,13 @@ Software (maybe with Ionic or Fuse):
 - Coding dojo platform
 - ML Retreat (training f2f from ML, Python, Javascript, IONIC)
 	For guys from US willing to get well paid job
-- Freelancers portal ()
-
+- Freelancers portal () + tasks to work on real problems
+- News reader with sentiment analysis, truthworthness, Poland and worldwide
+- Car configuration (multicar), worth after several years, cost of the parts, dimenstions,
+- Economy analysis - correlation between currencies, stocks (indexes total, 100etc), commodities (gold, crude oil, copper, etc), cryptocurrencies, ...
+	Predict prices, economic growth,
+	Predict house pricing, etc.
+- 
 	
 ##########################################################################################
 https://www.udemy.com/reprogram-your-facebook-any-other-webapp/
