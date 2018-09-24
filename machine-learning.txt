@@ -11,6 +11,9 @@ https://deeplearningretreat.com/
 https://pythonprogramming.net/data-analysis-tutorials/
 https://bloomberg.github.io/foml/#home
 https://medium.com/@epireve/i-couldt-afford-siraj-raval-s-deep-learning-udacity-course-c41ae2a55554
+https://eu.udacity.com/school-of-ai
+https://www.goodai.com/school-for-ai
+https://medium.freecodecamp.org/deep-reinforcement-learning-where-to-start-291fb0058c01
 
 
 
