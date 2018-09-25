@@ -24,4 +24,5 @@ export class ArchivedTodosPage {
     this.archivedTodos = this.todoProvider.getArchivedTodos();
   }
 
+  
 }

@@ -9,7 +9,20 @@ import { Injectable } from '@angular/core';
 */
 @Injectable()
 export class TodoProvider {
-  private todos = [];
+  private todos = [
+  "Squat jumps",
+  "Burpees",
+  "Jumping jacks",
+  "Heiseman",
+  "Push ups",
+  "Jumping lunges",
+  "High knees",
+  "Mountain",
+  "Butt kicks",
+  "Bicycles",
+  "Leg crunches",
+  "Tuck jumps"
+  ];
   private archivedTodos = [];
 
 
