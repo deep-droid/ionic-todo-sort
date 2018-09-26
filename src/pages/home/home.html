@@ -6,7 +6,7 @@
 
     <ion-buttons end>
       <button ion-button (click)="toggleReorder()" *ngIf = "!reorderIsEnabled">
-        Edit
+        Sort
       </button>
       <button ion-button (click)="toggleReorder()" *ngIf = "reorderIsEnabled">
         Done
@@ -32,7 +32,14 @@
         </button>
       </ion-item-options>
 
-      <ion-item>{{todo}}</ion-item>
+      <ion-item>
+        <ion-icon name = "close-circle" outline item-start></ion-icon>
+        {{todo}}
+        <label ion-button outline item-end>Find out how</label>
+        <!-- ///{{Math.floor(Math.random() * 10) + 1}} -->
+        <ion-icon name = "checkmark-circle" outline item-end></ion-icon>
+      </ion-item>
+      <!-- <ion-item>Right</ion-item> -->
 
       <ion-item-options side="left">
         <button ion-button color = "green" (click)="updateTodo(todoIndex)">
@@ -44,6 +51,83 @@
 
   </ion-list>
 
+
+<!--   <ion-list>
+
+    <ion-list-header>
+      <button ion-button item-start (click)="buttonClick()">Button</button>
+      List Header
+      <button ion-button outline item-end (click)="buttonClick()">Outline</button>
+    </ion-list-header>
+  
+    <ion-item *ngFor="let item of items">
+      Item {{item}}
+    </ion-item>
+  
+    <button ion-item>
+      <ion-icon name="star" item-start></ion-icon>
+      Button Item
+    </button>
+  
+    <ion-item>
+      <ion-label>
+        Item Label
+      </ion-label>
+      <div item-content>
+        Item Content next to the label
+      </div>
+    </ion-item>
+  
+    <ion-item>
+      <button ion-button item-start (click)="buttonClick()">Button</button>
+      Item
+      <button ion-button outline item-end (click)="buttonClick()">Outline</button>
+    </ion-item>
+  
+    <ion-item-divider>
+      Item Divider
+      <button ion-button item-end>Button</button>
+    </ion-item-divider>
+  
+    <button ion-item disabled>
+      <button ion-button item-start (click)="buttonClick()">
+        <ion-icon name="home"></ion-icon>
+        Left Icon
+      </button>
+      Disabled Button Item
+      <button ion-button outline item-end (click)="buttonClick()">
+        <ion-icon name="star"></ion-icon>
+        Left Icon
+      </button>
+    </button>
+  
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="img/my-avatar.png">
+      </ion-avatar>
+      Avatar Item
+      <button ion-button outline item-end>View</button>
+    </ion-item>
+  
+    <ion-item>
+      <h2>Item</h2>
+      <p>Item Paragraph</p>
+      <ion-thumbnail item-end>
+        <img src="img/my-thumbnail.png">
+      </ion-thumbnail>
+    </ion-item>
+  
+    <ion-item-sliding>
+      <ion-item>
+        Item
+      </ion-item>
+      <ion-item-options>
+        <button ion-button color="primary" (click)="archive()">Archive</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  
+  </ion-list> -->
+  
   <ion-list>
     <ion-item-sliding #item>
       <!-- <ion-item>

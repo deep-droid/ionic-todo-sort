@@ -28,6 +28,9 @@ export class TodoProvider {
 
   constructor(public http: HttpClient) {
     console.log('Hello TodoProvider Provider');
+
+    //ngFor = "let todo of todos; let todoIndex = index
+    //this.todos.forEach()
   }
 
   archiveTodo(todoIndex){
