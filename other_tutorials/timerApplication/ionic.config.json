@@ -1,0 +1,7 @@
+{
+  "name": "timerApplication",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

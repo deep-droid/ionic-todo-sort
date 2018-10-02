@@ -200,16 +200,24 @@ export class HomePage {
       duration: 2000
     });
     doneTrainingToast.present();
+
+    let alert = this.alertCtrl.create({
+      title: 'Rest time',
+      subTitle: 'Time to rest',
+      buttons: ['Dismiss']
+    });
+
+    alert.present();
   }
 
   doAlert() {
-  let alert = this.alertCtrl.create({
-    title: 'Cookies policy',
-    subTitle: 'We do use cookies. We value your privacy.',
-    buttons: ['Ok']
-  });
+    let alert = this.alertCtrl.create({
+      title: 'Cookies policy',
+      subTitle: 'We do use cookies. We value your privacy.',
+      buttons: ['Ok']
+    });
 
-  alert.present();
+    alert.present();
   }
 
   doConfirm() {
