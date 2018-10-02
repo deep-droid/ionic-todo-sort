@@ -11,12 +11,14 @@ import { TodoProvider } from '../providers/todo/todo';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { ArchivedTodosPage } from "../pages/archived-todos/archived-todos";
+import { SettingsPage } from '../pages/settings/settings';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ArchivedTodosPage
+    ArchivedTodosPage,
+    SettingsPage
   ],
   imports: [
     ///Add "Module" for @NgModule annotation
@@ -29,7 +31,8 @@ import { ArchivedTodosPage } from "../pages/archived-todos/archived-todos";
   entryComponents: [
     MyApp,
     HomePage,
-    ArchivedTodosPage
+    ArchivedTodosPage,
+    SettingsPage
   ],
   providers: [
     StatusBar,

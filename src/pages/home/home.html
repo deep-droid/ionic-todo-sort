@@ -22,7 +22,7 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="content-bg">
   <ion-list [reorder]="reorderIsEnabled" (ionItemReorder)="itemReordered($event)" >
     <ion-item-sliding *ngFor = "let todo of todos; let todoIndex = index">
 
@@ -32,11 +32,14 @@
         </button>
       </ion-item-options>
 
-      <ion-item>
-        <ion-icon name = "close-circle" outline item-start (click)="skipTraining(todoIndex)"></ion-icon>
+      <ion-item color="light">
+        <ion-icon name = "close-circle" outline item-start color="danger"
+        (click)="skipTraining(todoIndex)"></ion-icon>
         {{todo}}
-        <label ion-button outline item-end (click)="showVideo(todoIndex)">Video</label>
-        <ion-icon name = "checkmark-circle" outline item-end (click)="doneTraining(todoIndex)"></ion-icon>
+        <!-- <label ion-button outline item-end (click)="showVideo(todoIndex)">Video</label> -->
+        <ion-icon name = "checkmark-circle" outline item-end color="secondary"
+        (click)="doneTraining(todoIndex)"
+        ></ion-icon>
       </ion-item>
       <!-- <ion-item>Right</ion-item> -->
 
@@ -145,16 +148,20 @@
 
   <ion-fab right bottom>
       <button ion-fab (click)="goToArchivePage()">
-      <!-- <button ion-fab [navPush]="archivedTodosPage"> -->
         <ion-icon name="archive"></ion-icon>
       </button>
   </ion-fab>
-  <button ion-button block (click)="openTodoAlert()">Add</button>
-  <button ion-button block (click)="removeTodoAlert()">Remove</button>
-  <button ion-button block (click)="doAlert()">Basic Alert</button>
-  <button ion-button color="light" block (click)="doConfirm()">Confirm Alert</button>
-  <button ion-button color="secondary" block (click)="doPrompt()">Prompt Alert</button>
+  <ion-fab left bottom>
+      <button ion-fab (click)="goToSettingsPage()">
+        <ion-icon name="settings"></ion-icon>
+      </button>
+  </ion-fab>  
+  <!-- <button ion-button block (click)="openTodoAlert()">Add</button>
+  <button ion-button block (click)="removeTodoAlert()">Remove</button> -->
+  <button ion-button block (click)="doAlert()">Cookies Policy</button>
+  <button ion-button color="light" block (click)="doConfirm()">Confirm Physical Health Status</button>
+  <!-- <button ion-button color="secondary" block (click)="doPrompt()">Prompt Alert</button>
   <button ion-button color="danger" block (click)="doRadio()">Radio Alert</button>
-  <button ion-button color="dark" block (click)="doCheckbox()">Checkbox Alert</button>
+  <button ion-button color="dark" block (click)="doCheckbox()">Checkbox Alert</button> -->
 
 </ion-content>
