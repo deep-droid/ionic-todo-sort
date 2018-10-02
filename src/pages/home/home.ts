@@ -167,6 +167,34 @@ export class HomePage {
     alert.present();
   }
 
+
+  showVideo(todoIndex)
+  {
+    let showVideoToast = this.toastController.create({
+      message: "Displaying video",
+      duration: 2000
+    });
+    showVideoToast.present();
+  }
+
+  skipTraining(todoIndex)
+  {
+    let skipTrainingToast = this.toastController.create({
+      message: "Training skipped",
+      duration: 2000
+    });
+    skipTrainingToast.present();
+  }
+
+  doneTraining(todoIndex)
+  {
+    let doneTrainingToast = this.toastController.create({
+      message: "Done training",
+      duration: 2000
+    });
+    doneTrainingToast.present();
+  }
+
   doAlert() {
   let alert = this.alertCtrl.create({
     title: 'New Friend!',
