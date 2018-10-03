@@ -24,7 +24,7 @@ export class HomePage {
     { 
       this.myTimer--;
       if (this.myTimer == 0)
-      setTimeout.ca
+      //setTimeout
       alert("Hello");
     };
 
@@ -56,11 +56,10 @@ export class HomePage {
           if(this.timerValue <= 0) { }
            this.timerValue -= 1;
 
-          if(this.timerValue > 0){
+          if(this.timerValue > -1){
             //this.hidevalue = false;
             this.StartTimer();
-          }
-          
+          }          
           else{
               //this.hidevalue = true;
               this.timerStarted = false;
