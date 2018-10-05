@@ -1,0 +1,7 @@
+{
+  "name": "timetimer",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
