@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { HoursMinutesSecondsPipe } from './hours-minutes-seconds/hours-minutes-seconds';
+import { HoursMinutesSeconds } from './hours-minutes-seconds/hours-minutes-seconds';
 @NgModule({
-	declarations: [HoursMinutesSecondsPipe],
+	declarations: [HoursMinutesSeconds],
 	imports: [],
-	exports: [HoursMinutesSecondsPipe]
+	exports: [HoursMinutesSeconds]
 })
 export class PipesModule {}

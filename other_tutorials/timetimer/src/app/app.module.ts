@@ -19,7 +19,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     IonicModule.forRoot(MyApp),
-    IonicStorageModule.forRoot(MyApp),
+    IonicStorageModule.forRoot(),
     BrowserModule
   ],
   bootstrap: [IonicApp],
@@ -29,8 +29,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     StopTimingPage
   ],
   providers: [
-    {provide: ErrorHandler, useClass: IonicErrorHandler}, 
-    //Storage, 
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
     StatusBar,
     SplashScreen,
     Projects]
