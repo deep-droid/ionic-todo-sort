@@ -7,16 +7,16 @@ Ionic app:
 	every x days
 	2 per day (morning-evening)
 	Within fab button (*)
-	NOT STARTED
+	NOT STARTED - TODO 1st PRIORITY
 2) Splash screen on loading
 	Initialize for 2-3 seconds with image and animation
-	NOT STARTED
+	NOT STARTED - TODO 1st PRIORITY
 3) Disclaimer -> confirmcd fitenss warning: Agree / Disagree
 	Store consent
 	Disclaimer about cookies
 	Disclaimer about privacy policy for EU
 	DONE
-	NOT INTEGRATED
+	NOT INTEGRATED - TODO 1st PRIORITY: BLOCK APP IF NOT CONFIRMED
 4) 10-14 predefined training workouts - about 15-20 minutes
 	40 seconds + 20 seconds scheme
 	STARTED

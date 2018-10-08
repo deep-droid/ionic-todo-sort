@@ -1,12 +1,15 @@
 import { NgModule, ErrorHandler } from '@angular/core';
-import { Storage } from '@ionic/storage';
+import { IonicStorageModule } from '@ionic/storage';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { StopTimingPage } from '../pages/stop-timing/stop-timing';
-import { Projects } from '../providers/projects';
-import { HoursMinutesSeconds } from '../pipes/hours-minutes-seconds';
- 
+import { Projects } from '../providers/projects/projects';
+import { HoursMinutesSeconds } from '../pipes/hours-minutes-seconds/hours-minutes-seconds';
+import { BrowserModule } from '@angular/platform-browser';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -15,7 +18,9 @@ import { HoursMinutesSeconds } from '../pipes/hours-minutes-seconds';
     HoursMinutesSeconds
   ],
   imports: [
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot(MyApp),
+    BrowserModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -23,6 +28,11 @@ import { HoursMinutesSeconds } from '../pipes/hours-minutes-seconds';
     HomePage,
     StopTimingPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, Storage, Projects]
+  providers: [
+    {provide: ErrorHandler, useClass: IonicErrorHandler}, 
+    //Storage, 
+    StatusBar,
+    SplashScreen,
+    Projects]
 })
 export class AppModule {}
