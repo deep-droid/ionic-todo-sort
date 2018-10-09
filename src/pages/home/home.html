@@ -1,7 +1,10 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      PLYO TRAINING
+      <div>
+          PLYO TRAINING
+      </div>
+      
     </ion-title>
 
     <ion-buttons end>
@@ -23,6 +26,12 @@
 </ion-header>
 
 <ion-content padding class="content-bg">
+  <button ion-button block color=standard (click)="doAlert()"
+    *ngIf = !trainingStarted>
+    Start training</button>
+  <button ion-button block color=danger (click)="doAlert()"
+    *ngIf = trainingStarted>
+    Cancel training</button>
   <ion-list [reorder]="reorderIsEnabled" (ionItemReorder)="itemReordered($event)" >
     <ion-item-sliding *ngFor = "let todo of todos; let todoIndex = index">
 
