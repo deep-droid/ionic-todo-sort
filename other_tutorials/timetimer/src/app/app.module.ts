@@ -4,7 +4,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { StopTimingPage } from '../pages/stop-timing/stop-timing';
-import { Projects } from '../providers/projects/projects';
+import { ProjectsProvider } from '../providers/projects/projects';
 import { HoursMinutesSeconds } from '../pipes/hours-minutes-seconds/hours-minutes-seconds';
 import { BrowserModule } from '@angular/platform-browser';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -32,6 +32,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     StatusBar,
     SplashScreen,
-    Projects]
+    ProjectsProvider]
 })
 export class AppModule {}

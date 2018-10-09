@@ -5,7 +5,7 @@ import { ProjectModel } from '../../models/project-model';
 import { reorderArray } from 'ionic-angular';
  
 @Injectable()
-export class Projects {
+export class ProjectsProvider {
  
     projects: any[] = [];
     projectActive = false;

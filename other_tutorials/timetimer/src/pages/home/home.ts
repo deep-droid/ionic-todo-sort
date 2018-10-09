@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, AlertController, ModalController } from 'ionic-angular';
 import { StopTimingPage } from '../stop-timing/stop-timing';
-import { Projects } from '../../providers/projects/projects';
+import { ProjectsProvider } from '../../providers/projects/projects';
 import { ProjectModel } from '../../models/project-model';
  
 @Component({
