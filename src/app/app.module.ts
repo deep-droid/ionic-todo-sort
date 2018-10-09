@@ -15,6 +15,9 @@ import { SettingsPage } from '../pages/settings/settings';
 import { TrainingsProvider } from '../providers/trainings/trainings';
 import { CalculateStatisticsPipe } from '../pipes/calculate-statistics/calculate-statistics';
 
+
+//Template app:
+//https://www.joshmorony.com/creating-a-time-tracking-app-in-3-hours-and-57-minutes/
 @NgModule({
   declarations: [
     MyApp,
