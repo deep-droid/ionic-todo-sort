@@ -12,13 +12,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { ArchivedTodosPage } from "../pages/archived-todos/archived-todos";
 import { SettingsPage } from '../pages/settings/settings';
+import { TrainingsProvider } from '../providers/trainings/trainings';
+import { CalculateStatisticsPipe } from '../pipes/calculate-statistics/calculate-statistics';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ArchivedTodosPage,
-    SettingsPage
+    SettingsPage,
+    CalculateStatisticsPipe
   ],
   imports: [
     ///Add "Module" for @NgModule annotation
@@ -38,7 +41,8 @@ import { SettingsPage } from '../pages/settings/settings';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    TodoProvider
+    TodoProvider,
+    TrainingsProvider
   ]
 })
 export class AppModule {}
