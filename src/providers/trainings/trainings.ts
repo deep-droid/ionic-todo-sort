@@ -1,7 +1,7 @@
-import { HttpClient } from '@angular/common/http';
+// import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { IonicStorageModule } from '@ionic/storage';
-import { TrainingDataModel } from '../models/trainingdata-model';
+// import { IonicStorageModule } from '@ionic/storage';
+import { TrainingDataModel } from '../../models/trainingdata-model';
 import { reorderArray } from 'ionic-angular';
 
 /*
@@ -14,9 +14,17 @@ import { reorderArray } from 'ionic-angular';
 export class TrainingsProvider {
 
   projects: any[] = [];
-  projectActive = false;
+  projectActive = true;
+  projectDone = false;
+
   timerInterval: any;
   secondsElapsed: number = 0;
+  // public name: string,
+  // public lastChecked: Date,
+  // public repetitions: number,
+  // public totalRepetitions: number,
+  // public active: boolean,
+  // public done: boolean,
 
   constructor(public storage: Storage) {
 
@@ -30,12 +38,12 @@ export class TrainingsProvider {
 
               for(let project of projects){
 
-                  let savedProject = new ProjectModel(project.name, new Date(project.lastChecked), project.totalSeconds, project.active);
+                  let savedProject = new TrainingDataModel(project.name, new Date(project.lastChecked), project.repetitions, project.totalRepetitions, project.active, project.done);
                   this.projects.push(savedProject);
 
-                  if(project.active){
-                      this.startTiming(savedProject, true);
-                  }
+                  // if(project.active){
+                  //     this.startTiming(savedProject, true);
+                  // }
 
               }
 

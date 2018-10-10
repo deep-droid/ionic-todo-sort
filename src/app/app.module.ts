@@ -14,7 +14,8 @@ import { ArchivedTodosPage } from "../pages/archived-todos/archived-todos";
 import { SettingsPage } from '../pages/settings/settings';
 import { TrainingsProvider } from '../providers/trainings/trainings';
 import { CalculateStatisticsPipe } from '../pipes/calculate-statistics/calculate-statistics';
-
+import { IonicStorageModule } from "@ionic/storage";
+// import { BrowserModule } from "@angular/platform-browser";
 
 //Template app:
 //https://www.joshmorony.com/creating-a-time-tracking-app-in-3-hours-and-57-minutes/
@@ -31,7 +32,8 @@ import { CalculateStatisticsPipe } from '../pipes/calculate-statistics/calculate
     HttpModule,
     HttpClientModule,
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot(),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
