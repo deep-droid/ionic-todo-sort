@@ -1,6 +1,6 @@
 // import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-// import { IonicStorageModule } from '@ionic/storage';
+import { IonicStorageModule } from '@ionic/storage';
 import { TrainingDataModel } from '../../models/trainingdata-model';
 import { reorderArray } from 'ionic-angular';
 
