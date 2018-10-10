@@ -16,6 +16,8 @@ export class HomePage {
   public reorderIsEnabled = false;
   public archivedTodosPage = ArchivedTodosPage;
 
+  public trainingIsStarted = false;
+
   testRadioOpen = false;
   testRadioResult: any;
   testCheckboxOpen = false;
@@ -63,6 +65,10 @@ export class HomePage {
     this.reorderIsEnabled = !this.reorderIsEnabled;
   }
 
+  toggleTrainingStatus() {
+    this.trainingIsStarted = !this.trainingIsStarted;
+  }
+  
   itemReordered($event){
     reorderArray(this.todos, $event);
   }
