@@ -23,6 +23,31 @@
     <ion-label>Remainder</ion-label>
     <ion-toggle enabled checked="false"></ion-toggle>
   </ion-item>
+
+  <ion-item>
+    <ion-label>Hours</ion-label>
+    <ion-datetime displayFormat="HH:mm" [(ngModel)]="myDate"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Days of the week</ion-label>
+    <ion-datetime displayFormat="HH:mm" [(ngModel)]="myDate"></ion-datetime>
+  </ion-item>  
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Days of the week</ion-label>
+      <ion-select [(ngModel)]="daysofweek" multiple="true" cancelText="No" okText="Ok!">
+        <ion-option value="Mon">Mon</ion-option>
+        <ion-option value="Tue">Tue</ion-option>
+        <ion-option value="Wed">Wed</ion-option>
+        <ion-option value="Thu">Thu</ion-option>
+        <ion-option value="Fri">Fri</ion-option>
+        <ion-option value="Sat">Sat</ion-option>
+        <ion-option value="Sun">Sun</ion-option>             
+      </ion-select>
+    </ion-item>
+  </ion-list>
 <!-- 
   Notify every x days
   Weekly schedule (Mon-Fri, Weekend)
