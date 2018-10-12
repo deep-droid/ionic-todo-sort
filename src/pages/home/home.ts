@@ -65,10 +65,10 @@ export class HomePage {
     this.reorderIsEnabled = !this.reorderIsEnabled;
   }
 
-  toggleTrainingStatus() {
+  toggleTrainingStatus(){
     this.trainingIsStarted = !this.trainingIsStarted;
   }
-  
+
   itemReordered($event){
     reorderArray(this.todos, $event);
   }

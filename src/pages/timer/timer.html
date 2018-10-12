@@ -14,5 +14,14 @@
 
 
 <ion-content padding>
+  <div id="countdown">{{myTimer}}</div>
+  <!-- <button ion-button color="secondary">Secondary</button>
+  <button ion-button color="danger">Danger</button>
+  <button ion-button color="light">Light</button>
+  <button ion-button color="dark">Dark</button> -->
 
+  <button ion-button (click)="startTimer()" color="secondary">Start Timer</button>
+  <button ion-button (click)="stopTimer()" color="default">Stop Timer</button>
+  <div *ngIf="hidevalue==false"> {{timerValue}}</div>
+  <button ion-button (click)="StartTimer()" color="danger">Start Timer2</button>
 </ion-content>
