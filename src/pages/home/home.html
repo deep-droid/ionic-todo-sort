@@ -26,6 +26,11 @@
 </ion-header>
 
 <ion-content padding class="content-bg">
+
+    <ion-label>
+        {{synctocloudSetting}}
+    </ion-label>
+    
   <button ion-button block color=standard (click)="toggleTrainingStatus()" 
     *ngIf = !trainingIsStarted>
     Start training</button>
@@ -172,5 +177,6 @@
   <!-- <button ion-button color="secondary" block (click)="doPrompt()">Prompt Alert</button>
   <button ion-button color="danger" block (click)="doRadio()">Radio Alert</button>
   <button ion-button color="dark" block (click)="doCheckbox()">Checkbox Alert</button> -->
+
 
 </ion-content>

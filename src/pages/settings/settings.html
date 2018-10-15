@@ -14,12 +14,17 @@
 
 
 <ion-content padding>
-  <ion-item>
+  <ion-item [(ngModel)]="synctocloudSetting">
     <ion-label>Auto sync data to cloud storage</ion-label>
     <ion-toggle enabled checked="true"></ion-toggle>
   </ion-item>
 
-  <ion-item>
+  <ion-item [(ngModel)]="emailtologinSetting">
+      <ion-label floating>Login</ion-label>
+      <ion-input type="email"></ion-input>
+  </ion-item>
+
+  <ion-item [(ngModel)]="remainderSetting">
     <ion-label>Remainder</ion-label>
     <ion-toggle enabled checked="false"></ion-toggle>
   </ion-item>
@@ -37,7 +42,7 @@
   <ion-list>
     <ion-item>
       <ion-label>Days of the week</ion-label>
-      <ion-select [(ngModel)]="daysofweek" multiple="true" cancelText="No" okText="Ok!">
+      <ion-select [(ngModel)]="daysofweekSetting" multiple="true" cancelText="No" okText="Ok!">
         <ion-option value="Mon">Mon</ion-option>
         <ion-option value="Tue">Tue</ion-option>
         <ion-option value="Wed">Wed</ion-option>
@@ -56,41 +61,46 @@
   Ring tone
   Vibration <en/dis> -->
 
-  <ion-list radio-group>
+  <ion-list radio-group [(ngModel)]="resttimeSetting">
     <ion-list-header>
       Rest time [s]
     </ion-list-header>
   
     <ion-item>
       <ion-label>60</ion-label>
-      <ion-radio checked="true" value="go"></ion-radio>
+      <ion-radio value="60"></ion-radio>
     </ion-item>
   
     <ion-item>
       <ion-label>75</ion-label>
-      <ion-radio value="rust"></ion-radio>
+      <ion-radio value="75"></ion-radio>
     </ion-item>
   
     <ion-item>
       <ion-label>90</ion-label>
-      <ion-radio value="python"></ion-radio>
+      <ion-radio checked="true" value="90"></ion-radio>
     </ion-item>
 
     <ion-item>
       <ion-label>120</ion-label>
-      <ion-radio value="python" disabled="true"></ion-radio>
+      <ion-radio value="120"></ion-radio>
+      <!-- <ion-radio value="python" disabled="true"></ion-radio> -->
     </ion-item>
   </ion-list>
 
 
   <ion-list>
     <ion-item>
-      <ion-label>Language</ion-label>
-      <ion-select [(ngModel)]="toppings" multiple="false" cancelText="No" okText="Ok!">
+      <ion-label>Select Language</ion-label>
+      <ion-select [(ngModel)]="languageSetting" multiple="false" cancelText="No" okText="Ok!">
         <ion-option value="English" selected="true">English</ion-option>
         <ion-option value="Polish">Polish</ion-option>
         <ion-option value="Hindi">Hindi</ion-option>
       </ion-select>
     </ion-item>
   </ion-list>
+
+  <ion-item>
+    <ion-label>Application version</ion-label>
+  </ion-item>
 </ion-content>

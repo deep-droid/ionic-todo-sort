@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 import { ArchivedTodosPage } from "../../pages/archived-todos/archived-todos";
 import { SettingsPage } from "../../pages/settings/settings";
 import { SplashScreen } from "@ionic-native/splash-screen";
+import { TimerPage } from "../../pages/timer/timer";
 
 @Component({
   selector: 'page-home',
@@ -18,6 +19,12 @@ export class HomePage {
 
   public trainingIsStarted = false;
 
+  synctocloudSetting = false;
+  remainderSetting = true;
+  daysofweekSetting = [];
+  resttimeSetting = [];
+  languageSetting = "English";
+  
   testRadioOpen = false;
   testRadioResult: any;
   testCheckboxOpen = false;
