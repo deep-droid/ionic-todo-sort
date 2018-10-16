@@ -71,7 +71,7 @@ content:
 Zdazus:
 aktywnych userów ok 4300, przy ponad 12k instalacji
 ale instalacje zbierane od 3-4 lat
-59k impressions -> 81 clicków -> 22.06zł
+59k impressions -> 81 clicków -> 22.06zł-30
 12 000 -> 59000 impressions -> 81 clicks -> 22 PLN / 5.9 USD (week => 168x more to get this in 1 hour)
 
 1 click => 0,007USD
