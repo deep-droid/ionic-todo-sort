@@ -21,9 +21,9 @@ export class HomePage {
 
   synctocloudSetting = false;
   remainderSetting = true;
-  daysofweekSetting = [];
-  resttimeSetting = [];
-  languageSetting = "English";
+  // daysofweekSetting = [];
+  // resttimeSetting = [];
+  // languageSetting = "English";
   
   testRadioOpen = false;
   testRadioResult: any;

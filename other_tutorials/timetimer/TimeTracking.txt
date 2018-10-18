@@ -1,0 +1,91 @@
+training application time tracking
+
+
+ionic start permatimer blank --v3
+
+ionic g page StopTiming
+
+ionic g provider Project 
+
+ionic g pipe HoursMinutesSeconds
+
+import { NgModule } from ".."
+
+@NgModule
+declarations: [
+HomePage,
+OtherPages
+]
+
+imports: [
+IonicModule.forRoot(MyApp)
+]
+
+bootstrap: [
+IonicApp
+]
+
+entryComponents: [
+MyApp,
+HomePage,
+StopTimingPage
+]
+
+providers: [
+{provide: ErrorHandler, useClass: IonicErrorHandler},
+Storage,
+Projects
+]
+
+ionic codrova plugin add cordova-sqlite-storage --save
+
+
+export class ProjectModel {
+
+	constructor (public name : string,
+		public lastChecked: date,
+		)
+		{
+		}
+		
+	setname(name: string): void {
+		this.name = name;
+		}
+		
+	setLastChecked(lastChecked: Date): void {
+		this.lastChecked = lastChecked;
+	}
+
+	setIsActive(active: boolean): void {
+		this.active = active;
+	}
+}
+
+
+import { Injectable } from "@angular/core";
+
+@Injectable()
+export class Projects {
+
+	projects: any [] = [];
+	projectActive = false;
+	timeInterval : any;
+	secondsElapsed: number = 0;
+	
+	constructor (public storage: Storage)
+	{
+	}
+	
+	load(): void {
+	
+		this.storage.get("permatimerProjects").then((projects)) =>
+		{
+			if (projects) {
+				for (let project of projects)
+				{
+					
+				}
+			}
+		}
+	}
+}
