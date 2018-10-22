@@ -12,27 +12,34 @@
 
 </ion-header>
 
+<!-- 
+  Notify every x days
+  Weekly schedule (Mon-Fri, Weekend)
+  Morning, Afternoon, Evening
+  Time (HH:MM)
+  Ring tone
+  Vibration <en/dis> -->
 
 <ion-content padding>
-  <ion-item [(ngModel)]="synctocloudSetting">
+  <ion-item name="synctocloudSettingName"> 
     <ion-label>Auto sync data to cloud storage</ion-label>
-    <ion-toggle enabled checked="true"></ion-toggle>
+    <ion-toggle enabled checked="true" [(ngModel)]="synctocloudSetting"></ion-toggle>
   </ion-item>
 
-  <ion-item [(ngModel)]="emailtologinSetting">
+  <ion-item name="emailtologinSettingName">
       <ion-label floating>Login</ion-label>
-      <ion-input type="email"></ion-input>
+      <ion-input type="email"  [(ngModel)]="emailtologinSetting"></ion-input>>
   </ion-item>
 
-  <ion-item [(ngModel)]="remainderSetting">
+  <ion-item name="remainderSettingName">
     <ion-label>Remainder</ion-label>
-    <ion-toggle enabled checked="false"></ion-toggle>
+    <ion-toggle enabled checked="false" [(ngModel)]="remainderSetting"></ion-toggle>
   </ion-item>
 
-  <ion-item>
+  <!-- <ion-item name="synctocloudSettingName">
     <ion-label>Hours</ion-label>
     <ion-datetime displayFormat="HH:mm" [(ngModel)]="myDate"></ion-datetime>
-  </ion-item>
+  </ion-item> -->
 
   <!-- <ion-item>
     <ion-label>Days of the week</ion-label>
@@ -53,13 +60,7 @@
       </ion-select>
     </ion-item>
   </ion-list>
-<!-- 
-  Notify every x days
-  Weekly schedule (Mon-Fri, Weekend)
-  Morning, Afternoon, Evening
-  Time (HH:MM)
-  Ring tone
-  Vibration <en/dis> -->
+
 
   <ion-list radio-group [(ngModel)]="resttimeSetting">
     <ion-list-header>
@@ -83,8 +84,7 @@
 
     <ion-item>
       <ion-label>120</ion-label>
-      <ion-radio value="120"></ion-radio>
-      <!-- <ion-radio value="python" disabled="true"></ion-radio> -->
+      <ion-radio value="120" disabled="true"></ion-radio>
     </ion-item>
   </ion-list>
 
@@ -102,5 +102,5 @@
 
   <ion-item>
     <ion-label>Application version</ion-label>
-  </ion-item>
+  </ion-item> -->
 </ion-content>
