@@ -126,3 +126,87 @@ Working;
 2$ / hour
 64k PLN / year
 
+##########################################################################################
+140-150 PLN/h netto
+##########################################################################################
+Arla, TM/SM
+225 x 8 x 145 PLN/h -> 
+-ZUS
+-19%
+200,000 PLN year
+##########################################################################################
+200k$ / year
+##########################################################################################
+Role:
+Crossover VP of engineering
+5-15 engineering managers
+Solve challenging software problems
+Improve quality of the team's performance
+Coaching low contributors -> replacing them with top global talent
+Former developer/architect -> push towards high standards of technical excellence
+Achieve quality bar
+
+Monitoring team performance - crossover work ... tool
+SM - identify obstacles/impediments, offer coaching to improve productivity
+Run deep-dives into problem-solving
+Levarage past technical expertise in software development, quality assurance, automated deployment in CI/CD tools
+Quality Assurance experience - make it an advantage
+
+Work with key executives within ESW Capital
+Seasoned professional with excellent English communication skills
+Effectively manage executive relationships
+
+Report to SVP
+Aggressive quarterly goals
+Lead team towards achieving the goals
+
+Responsibilities:
+Drive weekly product releases - not act on the last day, have backup plan
+Establish world-class standards, deliver consistent, high-quality product across dispersed teams - tools, communication, know the status, both current and expected in 2-3 days
+Achieve world-class productivity
+
+Scrum, Kanban? which? why?
+Delivery performance - measure
+
+Metrices:
+Velocity / capacity - commited vs completed
+Bugs per week - found / fixed
+Quality debt
+Burnup chart
+Burndown chart
+Sprint scope stability
+Sprint plan change
+Completion Ratio
+Scope convertion
+Unit testing coverage
+Unit test success rate
+Build success rate
+Code quality
+Technical debt
+Bugs growth by week/sprint
+Quality debt (defects): critical, major, minor, low,
+Open bugs over time
+Reopened defects
+Invalid defects
+Top priority defects age (fixed within 1 week, 2 weeks, > 2 weeks)
+Metrices end:
+
+Engage with customers and product managers / product owners to have consistent business value and need - product delivery is alligned with customer business value
+Transform existing engineering teams into effective engineering functions - upgradeing and recognizing talent as / when? required
+
+Strong recruitment mentoring, hands-on experience architectural leadership, career management - develop to leave, convince to stay, develop or die hard :) in 2-3 years skills may become outdated
+
+Lead product technical due diligence (?) and engineering talent assessment in companies we're going to acquire
+Transform acquired engineering teams into effective and efficient global teams - increase quality, reduce cost over pre-acquisition benchmarks,
+
+Requirements:
+MS/PhD required - checked
+Minimum 15 ys of engineering experience - checked - since 2003
+2 ys of experience as senior engineering manager - senior / 2nd level (regular, senior) - but in such large corporation there are 2 more levels (director, vp)
+Minimum 5ys of development experience - C++/C# (not java) - checked
+Led a team of 50 software engineers - not directly - up to 27/28 direct reporters + 15-20 (depending on project stage) developers/test engineers in 2 streams (SM+PM role)
+Setting goals, performance measurment, hiring decisions, firing - no - only recommendation for "improvement plan" - final hiring decision is combined HR/PM/RM (combined decision)
+
+Proven experience in building high-performance teams and scalable best-practices in engineering organization
+	Agile, Scrum/Kanban (preferred) - 
+
