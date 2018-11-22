@@ -209,4 +209,22 @@ Setting goals, performance measurment, hiring decisions, firing - no - only reco
 
 Proven experience in building high-performance teams and scalable best-practices in engineering organization
 	Agile, Scrum/Kanban (preferred) - 
+	
+Recent experience with DevOps teams
+	AWS, Google Cloud
+	Kubernetes - container-orchestration system for automating deployment, scaling and management of containerized applications (Google)
+	Docker - container management tool
+	DevOps - version control of all production artefacts, continuous integration, and deployment, to proactive monitoring of a production environment
+	Orchestration - the planning or coordination of the elements of a situation to produce a desired effect, especially surreptitiously
+	Orchestration - organizowanie
+	
+Proven ability to use metrics as key driver in decision-making
+1 year of experience with IaaS, SaaS, PasS - services
+Proven experience with setting goals for organization using SMART principles - https://en.wikipedia.org/wiki/SMART_criteria
+Specific – target a specific area for improvement.
+Measurable – quantify or at least suggest an indicator of progress.
+Assignable – specify who will do it.
+Realistic – state what results can realistically be achieved, given available resources.
+Time-related – specify when the result(s) can be achieved.
+
 
