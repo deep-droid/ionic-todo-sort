@@ -344,3 +344,26 @@ Good technical background, resolve technical blockers when needed
 Work to identify methods how to improve towards achieving your goals, increase productivity of teams, 
 Process improvement, 
 Resposibility for set of products, set of engineering teams,
+
+
+
+
+##########################################################################################
+What you’ll be doing:
+Leading and managing virtual scrum teams
+Engaging with stakeholders and managing internal/external relationships  
+Working with Product Owners to focus on business priorities, and manage continually changing requirements
+Driving Sprint planning and daily stand-ups with the scrum teams if needed
+Tracking sprint progress, manage blockers to ensure sprint goals are met
+Providing transparency - clear and accurate metrics on sprint reports
+Running sprint retrospective and review meeting, drive scrum teams to continuously improve 
+Coaching the team to adopt best practices with Agile development methodologies
+Working with the team to define a release and launch plan
+
+
+##########################################################################################
+
+##########################################################################################
+##########################################################################################
+##########################################################################################
+##########################################################################################
