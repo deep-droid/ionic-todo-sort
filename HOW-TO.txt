@@ -362,8 +362,18 @@ Working with the team to define a release and launch plan
 
 
 ##########################################################################################
+https://en.wikipedia.org/wiki/Lean_IT
+
 
 ##########################################################################################
+https://en.wikipedia.org/wiki/Kanban_(development)
+
+https://en.wikipedia.org/wiki/Kanban_board
+
 ##########################################################################################
+https://www.inflectra.com/methodologies/kanban.aspx
+
 ##########################################################################################
+https://www.atlassian.com/agile/kanban
+
 ##########################################################################################
