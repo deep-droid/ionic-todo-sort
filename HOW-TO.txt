@@ -228,3 +228,119 @@ Realistic – state what results can realistically be achieved, given available 
 Time-related – specify when the result(s) can be achieved.
 
 
+
+##########################################################################################
+Scaling
+Standarization
+Quarter 65 days (13 weeks x 5 days)
+
+Acquire 50 companies a year
+A lot of work
+100$/h -> 200k$/year
+Build and maintain crossover culture
+Full time, 40h / week
+Few managers reporting directly -> up to 15 reporting directly
+10 -> hundreds in your responsibility
+Deep dive into engineering problems
+
+##########################################################################################
+Curently
+30 direct reporting employees in 3 sub-units - consulting/service/not a project
+Handling a project with 25 people in it (3 sub streams, 8-9 developers/testers/business analysts/product owners)
+So overall it's 6 units total: 3 service-like, 3 project
+Total: about 55 engineers, 6 managers,
+
+##########################################################################################
+My approach to project development
+
+Continous delivery
+Static testing / code reviews
+Unit testing 
+Integration testing
+System testing
+
+Branching strategy
+	Feature branching - SaaS worfklow
+	Multiple version workflow (v1.2, v1.3, etc, bugfix)
+	Gitflow - master, develop, feature X, feature Y
+	
+Git Workflow, 
+Continous Delivery
+Continous Integration
+Master branch - tag releases
+Develop branch -> release branch
+Release branch -> master 
+Hotfix branch - hotfix/bug -> master -> release
+Feature branch -> develop branch
+https://medium.com/devsondevs/gitflow-workflow-continuous-integration-continuous-delivery-7f4643abb64f 
+
+Git pull request
+Git merge request
+
+Start with open-ended questions
+IQ cover all answers
+
+Go to cloud
+
+	
+##########################################################################################
+IntelliTest
+Generates unit tests for statemenst, conditions, assertions, ...
+C#, .NET
+xUnit, nUnit format
+reSharper
+Generate unit testing
+What about generating functional system testing? MY IMPROVEMENT to the company
+
+Bring:
+Align with the culture - agile
+Strong emphasis on tools - tools do not take breaks, do not get tired, work 24x7
+Without tools there is too much manual work which is tiresome, involve mundane tasks
+Review - tools
+Unit testing - as much generation for both code and data - IntelliTest for VS or others for java, etc
+	Java: Randoop, squaretest
+	http://www.evosuite.org/
+CI, CD - tools are important to shorthen test cycle, feedback cycle, atomization - one change at a time
+Test automation (not unit) - https://www.ca.com/us/products/ca-agile-requirements-designer.html#
+CA Agile requirements designer:
+https://www.youtube.com/watch?v=yatWfyN3KR4
+https://www.youtube.com/watch?v=l5KBbIN-afk
+https://www.youtube.com/watch?v=VfA3Zb4xX7U&list=PLO7SodxCJyn4mqM5LSK4cU5Ra1KnTludw
+
+Model based testing
+Java, .NET/C#
+
+Detects errors, antipatterns,
+Planning, project management, 
+
+No other committments, 100% fully available,
+Starting from April,
+Working with architects, Senior management, senior architects, development labs,
+Learning, open to new technologies,
+
+Technology, tools are very important (maybe contrary to agile manifesto - I value tools more than cooperation itself, although important).
+Why? Imagine building software without a main tool - a compiler or IDE (although some silll work with vim :))
+Tools for compilation, code review (reSharper), unit testing (generation, management), CI, deployment, DevOps tools (containters, Kubernetes, Docker, ...)
+
+DevOps - https://www.chef.io/ansible/
+Chef
+Ansible
+
+Metrics:
+Bugs
+Bugs resolved - bugfix
+Average time to resolve bug
+QA manual tests executed - 3408 (it has to be low cost)
+Low automation ratio 
+Reduce regression ratio
+
+
+Monitor & control quarterly goals,
+Work with senior managers, resoponsible for a team of software managers
+Progress daily towards achieving quarterly goals.
+
+Daily deep-dives into technical or process problems the teams are having,
+Good technical background, resolve technical blockers when needed
+Work to identify methods how to improve towards achieving your goals, increase productivity of teams, 
+Process improvement, 
+Resposibility for set of products, set of engineering teams,
