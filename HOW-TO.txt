@@ -377,6 +377,7 @@ https://www.inflectra.com/methodologies/kanban.aspx
 https://www.atlassian.com/agile/kanban
 
 ##########################################################################################
+<<<<<<< HEAD
 	
 Doesn't Recommend
 Neutral Outlook
@@ -398,3 +399,157 @@ Show Less
 Advice to Management
 
 get some training on human interaction and people management. Don't treat your employees like crap. Protect your contractors from incapable managers. Your customers' treatment style will be considered Crossover for work's treatment style , too, always remember that. You can only succeed if you can make both your employees and customers happy. Give feedback to your customer companies about the hiring managers and their turnover rates.
+=======
+WorkSmart
+Central operations
+Subsidary companies
+Product portfolio
+Exciting about the role
+Dynamic
+
+
+Unify
+Centralize
+Strealine
+
+Improve efficiency productivity
+
+
+Software engineering teams
+Quality assurance
+Deployment
+CI/CD
+
+Acquired
+Ticket
+Evaluate quality 
+Software development process improvement
+
+Managing a very large
+
+200-250
+10-15 reporitng directly
+Senior VP of operations
+
+Technical product development management
+
+Transform organization into the practices
+
+Cross orgina
+Cross functional
+
+Technical background in software engineering
+Development quality engineer (test automation)
+
+2 hats
+engineering
+working with other teams, executive teams
+
+.NET, java, c++/c
+.NET - 5 years
+15-20 - more than 5 code
+
+
+30 - direct people
+25 - project 
+
+50-200 a lot
+
+work with other project managers, software managers
+within 3 years 50-250 direct managers
+
+Agressive metrics, 
+WorkSmart - tool to measure productivity
+Weekly basis
+
+SMART goals
+Fast paced environment
+
+Kanban
+Scrum 
+
+Weekly basis
+KPIs
+Fast environment 
+
+Online hiring environment
+30 minute 
+Day to day resposibility
+
+Requitment p
+1 way webinar
+QA chat
+
+Testing process
+Subject matters experts
+
+Multiple choice questions
+Metrics
+Aligned in that questions
+
+Different scenarios
+
+Intelligence test - cognitive capabilities
+
+Hiring manager 
+
+A lot of stages
+
+
+Event saturday
+2pm UTC , 30 minutes 
+During the weekend - Monday
+Not Sunday
+
+Link to register 
+Prequalified questions - 3 years 50-500
+Hands on experience - more than 5 years
+Vision about metrics - weekly basis, to make decisions
+
+3 articles to read
+
+Complete process
+4 hours
+3 hours process
+20-50 minutes
+
+
+##########################################################################################
+Intel Software Engineering Manager
+
+Experience with the Agile/Scrum processes through the entire SDLC: software design, coding, unit test, integration test, build and release
+
+Responsibilities:
+
+Hire, lead, and mentor an engineering team development and validation that delivers storage solutions
+Supervise direct reporting staff according to overall company policy
+Apply strategic planning to determine company, department or unit objectives
+Control budget for the team, being responsible for hiring and career growth of direct reports
+Provide thought leadership and establish a technical strategy and roadmap for the team and its products
+Set clear, measurable goals in cooperation with partners in United States and customers all over the world
+Monitor staff performance including performance reviews and assist staff with work progress
+Foster a culture of continuous engineering and process improvement through mentoring, feedback, and metrics
+Evaluate current business processes and systems and implement procedures and systems to maximize operating efficiency
+Ensure adherence to software development lifecycle and architecture best practices
+Collaborate with cross-functional and cross-geo teams to define product roadmaps and scope of products throughout the product lifecycle
+Contribute to a culture of modern software development methodologies and architectural excellence
+
+Qualifications
+
+
+Master of science degree is a must have
+4+ years management experience with focus on people management
+Strong interpersonal, leadership and mentoring experience managing at least 10 person local/remote onshore/offshore engineering team
+Great motivation skills and ability to influence both technical experts and junior engineers
+Ability to work under time pressure with growth environment where priorities shift rapidly
+Experience with the Agile/Scrum processes through the entire SDLC: software design, coding, unit test, integration test, build and release
+Strong personal ownership and ability to set and meet high professional standards, flexible and responsive work style
+Excellent verbal and written communication skills English
+Eager and adaptable to change. Works with little guidance and direction
+Technical credibility to lead experienced engineering team to make the right design decisions and technology choices
+Understating of storage technologies RAID, CEPH, Hadoop and Linux environment is strongly required
+Knowledge of embedded software would be additional value
+
+
+
+>>>>>>> d0a635d3e4e7f941a0674a839f5ddc75b4631ed1
