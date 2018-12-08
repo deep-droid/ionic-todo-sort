@@ -553,3 +553,31 @@ Knowledge of embedded software would be additional value
 
 
 >>>>>>> d0a635d3e4e7f941a0674a839f5ddc75b4631ed1
+
+##########################################################################################
+https://medium.com/the-crossover-cast/inside-the-crossover-engine-room-91749dc7baf8
+keywords:
+engine room for crossover factory
+assembly line
+customer issue resolution, roadmap to relase planning, milestone, release, 
+defect resolution
+
+crossover pipeline: integration testing, continuous deployment, 
+SaaS - that's where CI, CD are welcome,
+docker
+kubernetes 
+
+top 1% talent 
+
+division between qa and development -> 4 major internal software factories:
+Feature
+Faster
+Easier
+Maintenance
+
+Team measure - single metrics
+
+crossover assembly line, factory -> economy of scale
+
+
+

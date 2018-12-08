@@ -235,3 +235,26 @@ Node: 8.11.1
 OS Platform: Windows 10
 Navigator Platform: Win32
 User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi
+
+
+Apps:
+push ups, squats, pull ups, sit ups:
+https://play.google.com/store/apps/details?id=com.northpark.pushups&hl=en
+
+https://play.google.com/store/apps/details?id=com.northpark.squats
+
+https://play.google.com/store/apps/details?id=com.northpark.pullups
+
+https://play.google.com/store/apps/details?id=com.northpark.situps
+
+Other:
+https://play.google.com/store/apps/details?id=buttocksworkout.hipsworkouts.forwomen.legworkout
+
+https://play.google.com/store/apps/details?id=com.popularapp.sevenmins
+
+https://play.google.com/store/apps/details?id=loseweight.weightloss.workout.fitness
+
+https://play.google.com/store/apps/details?id=absworkout.bellyfatworkout.waistworkout.abdominalworkout
+
+Another developer:
+https://play.google.com/store/apps/details?id=com.shvagerfm.Butts
