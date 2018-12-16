@@ -16,6 +16,85 @@ I changed it to more following the lean principles, to kanban. With that process
 
 
 
-
+################################################################################
 You are assigned a new team which still needs to be built from the ground up.  The team will provide a service for code reviews of work done by other engineering teams. Explain how you will build the team, the actions you will put in place, and you will measure the teams performance.
+################################################################################
+The first thing I will establish some grand rules:
+1) no issue is left unattended - any problem is raised even if is not your responsibility - assumed responsibility
+2) if you are stuck - raise an issue, communicate that you are blocked - tribal knowledge may solve most problems
+3) listen to others, be open to other ways of working, doing things - no one is perfect
 
+The team will be build around seniority pyramid concept. Some  experienced leads/architects, several seniors, mostly regular software engineers.
+
+This is a service team, so I will implement kanban or kanban-like approach to run the team and the project. Items / tickets will be handled as they appear taking into account work-in-progress limitation.
+
+Mostly I will measure cycle time and lead time for tickets with grouping by item severity and priority. But I will also measure hard statistics about how many lines of code are reviewed, how many unit tests implemented, the quality of code review itself.
+
+################################################################################
+We believe simplicity is critical to our business model. Please give an example where you took over something that was super complicated and you refined it to its simple core essence.
+################################################################################
+I am really fond of business process modeling. There are tools for that like TransWare which one can model processes in the application and show ways how things can be simplified, optimized and still working as designed.
+In that way me and the team simplified several projects, but the ones that I am most proud of are one in banking area (calculating internal cost of money) and REST API service for financial institution - hedge fund which API was over-complicated, redundant and superfluous.
+
+################################################################################
+Last week you set quarterly goals for your team asking for an aggressive amount (Let's call it X) of output that you need to accomplish your business goals.   This week your team has come back and said that X can't be done, and they are asking you to reset their goals to X/2. In this case you have 2 choices:
+
+A - reset the goals down to half of what you need and look elsewhere to fill the gap or
+
+B - keep the full goal and push the team to deliver it
+
+Please describe the process you follow to decide whether A or B is the right choice in a given situation.
+
+################################################################################
+1) First I look how far is the team from achieving the X goal. If it's close, then it may be realistic. If the team is way of the target, then maybe the goal was unrealistic and go through other points.
+2) Then I look how was the team performance in that quarter, all previous weeks. Whether the number was close to X/2 or close to X with small increments each time. If case B then the target may seem feasible.
+3) Next I look whether the goal is dependent solely on the team or maybe something outside of the team is blocking from reaching the target. If yes, then I address the issue.
+4) Next I check whether reaching that X target depends on making a lot of mundane, tedious tasks that can be automated. If yes, then I address the issue with the team or devops team.
+5) Then I also check statistics from work tracking tools if the team is fully committed and does its job. If not, then I talk with the low performers. I set high performers as role models.
+
+The bottom line is to check: whether the historic data supports target is close to X and is feasible, whether the target is dependent fully on the team, whether there is some work that can be automated, whether everyone is working hard and fully committed.
+
+################################################################################
+We are acquiring companies and moving them to our model of operation.  Please describe a specific example where you took an old process and transitioned it to a new very different process.
+
+################################################################################
+I addressed several time low quality of delivery. The target was to move fast, commit often, make mistakes sometime, identify them and fix quickly not slowing down the whole delivery process.
+
+1) thorough code reviews - not only just read the changes and mark OK
+2) proper level of unit testing - check the code, prevents many errors, while still fast to give feedback on code quality
+3) quick integration testing between modules, services, etc. - low number of issues between different developers responsibilities (different user stories, different part of applications)
+4) build & deploy - we move fast, but still there can be bugs, mistakes
+5) if bugs detected by system and acceptance tests (which are way much slower than unit/integration) then developers have priority to fix them
+
+Bottom line: move fast, commit often, build & deploy, when errors detected - fix quickly. Fast, agile, still high quality.
+
+################################################################################
+We just acquired a company with a 100 person Engineering department, you are in charge of this group. You need to change this team and can only retain the top 20%. Explain your thought process on how to retain the top 20% of talent.
+
+################################################################################
+Introduce metrics measuring individual performance, examples:
+1) code quality
+2) code development speed
+3) number of ticket solved, 
+4) cycle time
+5) etc.
+Those individual metrics are important, so I will give them weight like 80%. The other 20% will be from other team members evaluation how the person is team player and others are willing to work with that person. Good team spirit is also important, not only hard metrics.
+
+Given on the output of that metrics I will pick 20% which will stay with the engineering department.
+
+################################################################################
+Introduce metrics measuring individual performance, examples:
+1) code quality
+2) code development speed
+3) number of ticket solved, 
+4) cycle time
+5) etc.
+Those individual metrics are important, so I will give them weight like 80%. The other 20% will be from other team members evaluation how the person is team player and others are willing to work with that person. Good team spirit is also important, not only hard metrics.
+
+Given on the output of that metrics I will pick 20% which will stay with the engineering department.
+
+################################################################################
+################################################################################
+################################################################################
+################################################################################
+https://app.crossover.com/x/candidate/application-process/3288/1140592/written-evaluation/assignment
