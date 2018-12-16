@@ -1,0 +1,21 @@
+1. What you believe are your top 3 skills (from your previous work experience) that will help you the most in this new position. 
+The top sills will be: recognizing issues, designing a plan to solve them and implementing the plan - all 3 together are important to run a project. See things how they are, whats their status and then design and follow a plan to resolve them.
+
+2. What professional achievement are you most proud of?
+The achievement I'm the most proud of is finishing a major release for project without any major issues. And then me and my team did it again next year with next release.
+
+3. What mistake have you recently made and what have you learned from it?
+People make miskates all the time. Smaller or larger ones. The larger one would be to do not learn from your own mistakes and do them again. That's what I did recently. Should never ever happen again.	
+
+4. What assumptions do you no longer make?
+Scrum is not a silver-bulet. It works for certain type of projects but whenever the project is already in production, whether health, life or huge money are involved we still need to test outside of the scrum sprints.
+
+5. What is the biggest risk you have ever taken?
+The I took was the risk to change the process from set up before in the project by someone else.
+I changed it to more following the lean principles, to kanban. With that process the team was able to resolve the issess as they were submitted by the customer and resolving most important ones with higher priority and with less lead time.
+
+
+
+
+You are assigned a new team which still needs to be built from the ground up.  The team will provide a service for code reviews of work done by other engineering teams. Explain how you will build the team, the actions you will put in place, and you will measure the teams performance.
+

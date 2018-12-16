@@ -579,5 +579,42 @@ Team measure - single metrics
 
 crossover assembly line, factory -> economy of scale
 
+simplicity, do not over-engineer, do not build complexity
 
 
+
+##########################################################################################
+https://medium.com/the-crossover-cast/nothing-average-here-crossover-svp-of-engineering-operations-541cfaed6d6
+
+incremental improvements, day by day, week by week, month by month,
+people most important asset
+
+assembly line, factory - specialized
+build distributed super teams who are able to work as one and at the same time function effectively as individuals
+
+
+Barry Jones, SVP of Engineering & Operations, Crossover
+
+What are your key metrics for transforming software engineering teams?
+
+Cost per unit: How expensive is it to deliver a single unit. This is the team’s metric and the indicator that we’re always looking at. We measure this per individual, per project, per product, per team and also per unit. The unit has to be something that delivers value to the customer. A unit is specific to each team. Units are not subjective, and we only work with things that can quantifiably create business value. For maintenance it’s a defect fix, for feature teams it’s a capability that customers can actually use, for performance guys it is speed % improvement, etc.
+
+Cycle time: When we say cycle time, we’re referring to the time from when the work starts until the time the work is delivered. We’re aiming to shorten cycle times every quarter. For example we started Q4 2017 with a cycle time for defect fixing of 30 days. On average we took 30 days to deliver 1 defect fix. Now our cycle time is 6 days. We’ve shortened our cycle time by 5 times in less than 2 quarters and we’re planning to shorten it further.
+
+Failure rates on quality bars: One of the consequences of specializations of teams is introducing a number of handoffs between the teams. These handoffs need to happen according to a certain quality bar. We define the quality bar, making it objective, and try to automate as much as possible so that all transitions are either passing or failing according to the quality bar. When a transition fails the quality bar, we record it and calculate it as a percentage of the total number of transitions. Ultimately the end-state is a 0% fail rate for transitions between states.
+
+SLAs (service-level agreements): We introduced SLAs to define how long you can spend working on each state until it needs to be advanced. For example our SLA for QA was 24 hours. If the QA team gets a ticket today at 13:00, they have to finish the QA by 13:00 tomorrow. If they haven’t finished it they’ll keep working on it, but their SLA will be broken. If they do a 100 tickets and finish half of them in 24 hours, their failure rate will be 50%. This is the metric we use to quantify the quality of our process. If you need to spend more time than the desired time, it means the process is broken and so the quality of the process is not good. If the work you advanced gets rejected it means the quality of work is not good. Quality is a key metric.
+
+Regression: If a developer releases a ticket for QA internally and it fails the QA and has to go back into development, this is considered regression. We don’t expect developers to have a 100% success rate in delivering tickets without defects. If the success rate is not 100% we do deep dives to find the root cause; maybe the project doesn’t have enough unit testing, perhaps the build is broken, maybe you have universal developer syndrome which is “it works for me but not for you”. The numbers tell us where to look in order to improve the process. If you have a 0% failure rate, your work is as smooth as it gets. We consider this to be an optimally running Formula 1 car. Other companies say “go faster and do not break things”. We say “go faster and if you see something is breaking, don’t slow down, but fix it”. In Formula 1 they don’t tell drivers not to crash the car, that’s obvious. They tell drivers to go as fast as they can and then they make improvements on the fly to optimize their performance; reducing drag, adjusting tyre grip, etc. We don’t allow carte blanche for making mistakes, but we do allow carte blanche to find out what’s causing issues and then expect them to be fixed. Our focus for the next quarter is to see how we can get the QA process down from 24 hours to 1 hour. The failure rate may initially go up to 50% but our car will be still be going faster than in the last quarter. If the failure rate for regressions to production goes up significantly we’ll discover we’re speeding and need to slow down our SLAs again in order to ascertain what’s really missing, and what we need to do to get the same quality bar in 1 hour that we had in 24 hours.
+
+
+
+##########################################################################################
+https://medium.com/the-crossover-cast/the-soul-of-engineering-how-to-be-the-solution-3cb50595a1a7
+
+location of workers doesn’t matter
+
+
+##########################################################################################
+##########################################################################################
+##########################################################################################
